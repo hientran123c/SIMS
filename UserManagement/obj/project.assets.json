@@ -5306,11 +5306,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Learning\\Aplied programming\\Code\\UserManagement\\UserManagement\\StudentInformationManagementSystem.csproj",
-      "projectName": "StudentInformationManagementSystem",
-      "projectPath": "D:\\Learning\\Aplied programming\\Code\\UserManagement\\UserManagement\\StudentInformationManagementSystem.csproj",
+      "projectUniqueName": "D:\\Learning\\Aplied programming\\SIMS\\UserManagement\\UserManagement.csproj",
+      "projectName": "UserManagement",
+      "projectPath": "D:\\Learning\\Aplied programming\\SIMS\\UserManagement\\UserManagement.csproj",
       "packagesPath": "C:\\Users\\Hientran\\.nuget\\packages\\",
-      "outputPath": "D:\\Learning\\Aplied programming\\Code\\UserManagement\\UserManagement\\obj\\",
+      "outputPath": "D:\\Learning\\Aplied programming\\SIMS\\UserManagement\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
