@@ -1,6 +1,8 @@
 ﻿@{
 	ViewData["Title"] = "Login";
 }
+@{
+}
 <div class="container">
     <!-- Login Form -->
     <form asp-controller="User" asp-action="Login" method="post" class="shadow p-4 rounded border">
@@ -47,10 +49,11 @@
 <!-- Custom Styles for the Login Page -->
 <style>
     .container {
-        max-width: 500px;
-        margin-top: 80px;
-    }
+		max-width: 500px;
+		margin-top: 80px;
+	}
 
+    form
     .form-group label {
         font-weight: bold;
     }
