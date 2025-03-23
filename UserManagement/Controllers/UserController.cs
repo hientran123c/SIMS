@@ -13,7 +13,7 @@ namespace UserManagement.Controllers
             _userRepository = userRepository;
         }
 
-        public ActionResult Index()
+        public IActionResult Index()
         {
             return View();
         }
@@ -29,9 +29,6 @@ namespace UserManagement.Controllers
         {
             string username = user.Username;
             string password = user.Password;
-
-       
-           
                  var _user = _userRepository.GetUserByUsernameAndPassword(username, password);
         
                 if (_user != null)
