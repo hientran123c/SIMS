@@ -21,7 +21,7 @@ namespace UserManagement.Controllers
             return View(courses);
         }
 
-       
+
         public IActionResult Create()
         {
             return View();
@@ -105,3 +105,4 @@ namespace UserManagement.Controllers
         }
     }
 }
+

@@ -17,7 +17,7 @@ namespace UserManagement.Repositories
         bool UpdateUser(User user);
 
         bool DeleteUser(int id);
+        IEnumerable<Role> GetRoles();
 
-        
     }
 }
