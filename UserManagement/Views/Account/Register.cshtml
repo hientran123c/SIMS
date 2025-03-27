@@ -20,11 +20,18 @@
             <label for="RoleId">Role</label>
             <select class="form-control" id="RoleId" name="RoleId" required>
                 <option value="">Select Role</option>
-                @foreach (var role in ViewBag.Roles as SelectList)
+                @if (ViewBag.Roles != null )
                 {
-                    <option value="@role.Value">@role.Text</option>
+                    @foreach (var role in ViewBag.Roles as SelectList)
+                    {
+                        <option value="@role.Value">@role.Text</option>
+                    }
                 }
             </select>
+            @if (ViewData.ModelState["RoleId"]?.Errors.Any() == true)
+            {
+                <span class="text-danger">@ViewData.ModelState["RoleId"].Errors.FirstOrDefault()?.ErrorMessage</span>
+            }
         </div>
 
         <div class="form-group mb-3">
@@ -48,25 +55,33 @@
         <div class="form-group mt-3">
             <button type="submit" class="btn btn-primary w-100 py-2">Register</button>
         </div>
-
+        @{
+            var message = TempData["RegisterMessage"] as string;
+            if (!string.IsNullOrEmpty(message))
+            {
+                <div class="alert alert-success" style="margin:10px">
+                    @message
+                </div>
+            }
+        }
+        @if (TempData["Redirect"] != null)
+        {
+            <script type="text/javascript">
+                setTimeout(function() {
+                    window.location.href = '@TempData["Redirect"]';
+                }, 1000); 
+            </script>
+        }
     </form>
 
-    @{
-        var message = TempData["Message"];
-    }
 
 </div>
 
-
-
-
-<!-- Custom Styles for the Register Page -->
 <style>
 
 	.container {
 		max-width: 500px;
         margin-top: 80px; 
-
 	}
 
     .form-group label {

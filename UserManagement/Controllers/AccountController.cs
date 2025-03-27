@@ -18,13 +18,12 @@ namespace UserManagement.Controllers
         [HttpGet]
         public IActionResult ViewAccount()
         {
-
             // Lấy thông tin tài khoản người dùng từ session
             string username = HttpContext.Session.GetString("Username");
 
             if (string.IsNullOrEmpty(username))
             {
-                return RedirectToAction("Login", "User"); // Nếu chưa đăng nhập, chuyển hướng về trang login
+                return RedirectToAction("Login", "User"); 
             }
 
             var users = _userRepository.GetAllUsers();
@@ -38,34 +37,23 @@ namespace UserManagement.Controllers
             var user = _userRepository.GetUserById(id);
             if (user == null)
             {
-                TempData["Message"] = "Không tìm thấy tài khoản.";
                 return RedirectToAction("ViewAccount", "Account");
             }
-
             return View(user);
         }
 
         [HttpPost]
         public IActionResult DeleteConfirmed(int id)
         {
-            bool isDeleted = _userRepository.DeleteUser(id);
-            if (isDeleted)
-            {
-                TempData["Message"] = "Tài khoản đã bị xóa thành công!";
-            }
-            else
-            {
-                TempData["Message"] = "Có lỗi khi xóa tài khoản.";
-            }
-
+             _userRepository.DeleteUser(id);
             return RedirectToAction("ViewAccount", "Account");
         }
 
         [HttpGet]
         public IActionResult Register()
         {
-            var roles = _userRepository.GetRoles(); // Assuming a method to get all roles
-            ViewBag.Roles = new SelectList(roles, "Id", "Name"); // For dropdown
+            var roles = _userRepository.GetRoles(); 
+            ViewBag.Roles = new SelectList(roles, "Id", "Name"); 
             return View();
         }
 
@@ -83,13 +71,12 @@ namespace UserManagement.Controllers
 
                 user.CreatedAt = DateTime.Now;
                 user.LastLoginAt = DateTime.Now;
-
                 bool isCreated = _userRepository.CreateUser(user);
-
                 if (isCreated)
                 {
-                    TempData["Message"] = "Registration successful!";
-                    return View();
+                    TempData["RegisterMessage"] = "Registration successful!";
+                    TempData["Redirect"] = Url.Action("ViewAccount", "Account");
+                    return View(); 
                 }
                 else
                 {

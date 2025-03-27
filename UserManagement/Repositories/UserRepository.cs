@@ -110,7 +110,7 @@ namespace UserManagement.Repositories
 
         public IEnumerable<Role> GetRoles()
         {
-            return _context.Roles.ToList();
+            return _context.Roles?.ToList() ?? new List<Role>();
         }
     }
 }
