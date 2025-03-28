@@ -107,6 +107,11 @@ namespace UserManagement.Repositories
                 return false;
             }
         }
+
+        public IEnumerable<Role> GetRoles()
+        {
+            return _context.Roles?.ToList() ?? new List<Role>();
+        }
     }
 }
 

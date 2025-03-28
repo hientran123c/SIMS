@@ -2,16 +2,10 @@
     ViewData["Title"] = "Register";
 }
 @{
-}
+} 
 
-<div class="container">
-    @if (TempData["Message"] != null)
-    {
-        <div class="alert alert-success text-center">
-            @TempData["Message"]
-        </div>
-    }
-    <form asp-controller="User" asp-action="Register" method="post" class="shadow p-4 rounded border">
+ <div class="container">
+    <form asp-controller="Account" asp-action="Register" method="post" class="shadow p-4 rounded border">
         <h1 class="text-center mb-4">Register</h1>
         <div class="form-group mb-3">
             <label for="Fullname" class="form-label">Fullname</label>
@@ -19,6 +13,24 @@
             @if (ViewData.ModelState["Fullname"]?.Errors.Count > 0)
             {
                 <div class="text-danger">@ViewData.ModelState["Fullname"].Errors[0].ErrorMessage</div>
+            }
+        </div>
+
+        <div class="form-group mb-3">
+            <label for="RoleId">Role</label>
+            <select class="form-control" id="RoleId" name="RoleId" required>
+                <option value="">Select Role</option>
+                @if (ViewBag.Roles != null )
+                {
+                    @foreach (var role in ViewBag.Roles as SelectList)
+                    {
+                        <option value="@role.Value">@role.Text</option>
+                    }
+                }
+            </select>
+            @if (ViewData.ModelState["RoleId"]?.Errors.Any() == true)
+            {
+                <span class="text-danger">@ViewData.ModelState["RoleId"].Errors.FirstOrDefault()?.ErrorMessage</span>
             }
         </div>
 
@@ -43,20 +55,33 @@
         <div class="form-group mt-3">
             <button type="submit" class="btn btn-primary w-100 py-2">Register</button>
         </div>
-
-        <div class="text-center mb-4">
-            <p>Already have an account? <a asp-controller="User" asp-action="Login" class="btn-link">Login</a></p>
-        </div>
+        @{
+            var message = TempData["RegisterMessage"] as string;
+            if (!string.IsNullOrEmpty(message))
+            {
+                <div class="alert alert-success" style="margin:10px">
+                    @message
+                </div>
+            }
+        }
+        @if (TempData["Redirect"] != null)
+        {
+            <script type="text/javascript">
+                setTimeout(function() {
+                    window.location.href = '@TempData["Redirect"]';
+                }, 1000); 
+            </script>
+        }
     </form>
+
+
 </div>
 
-<!-- Custom Styles for the Register Page -->
 <style>
 
 	.container {
 		max-width: 500px;
         margin-top: 80px; 
-
 	}
 
     .form-group label {
@@ -98,3 +123,5 @@
         border: 1px solid #ddd;
     }
 </style>
+
+

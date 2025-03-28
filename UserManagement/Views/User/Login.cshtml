@@ -30,9 +30,7 @@
             <button type="submit" class="btn btn-primary w-100 py-2">Login</button>
         </div>
 
-        <div class="text-center">
-            <p>Don't have an account? <a asp-controller="User" asp-action="Register" class="btn-link">Register</a></p>
-        </div>
+      
     </form>
 
             @if (ViewBag.IsLogin != null && ViewBag.IsLogin)
@@ -42,7 +40,7 @@
                         Login Successful
                     </p>
                 </div>
-        <a asp-controller="Course" asp-action="index" class="btn btn-secondary w-100 py-2">Back to Home</a>
+        <a asp-controller="Home" asp-action="index1" class="btn btn-secondary w-100 py-2">Back to Home</a>
             }
 </div>
 

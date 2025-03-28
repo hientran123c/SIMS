@@ -13,7 +13,7 @@ public class HomeController : Controller
         _logger = logger;
     }
 
-    public IActionResult Index()
+    public IActionResult Index1()
     {
         ViewBag.IsLogin = 0;
         if (HttpContext.Session.GetInt32("IsLogin") == 1 && HttpContext.Session.GetString("Fullname") != null)

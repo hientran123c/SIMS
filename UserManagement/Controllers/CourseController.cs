@@ -21,7 +21,6 @@ namespace UserManagement.Controllers
             return View(courses);
         }
 
-       
         public IActionResult Create()
         {
             return View();
@@ -97,11 +96,10 @@ namespace UserManagement.Controllers
             bool isDeleted = _courseRepository.DeleteCourse(id);
             if (isDeleted)
             {
-                // Redirect to Index page after successful deletion
                 return RedirectToAction(nameof(Index));
             }
-            // If deletion fails, stay on the same page or show an error
             return View();
         }
     }
 }
+

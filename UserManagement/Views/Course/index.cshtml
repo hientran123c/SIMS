@@ -1,21 +1,4 @@
 ﻿
-
-@*  <div class="text-center">  
-  	@if (ViewBag.IsLogin != null && ViewBag.IsLogin == 1)  
- 	{  
-		<h1 class="display-4">Welcome @ViewBag.Fullname</h1> 
-         <a asp-controller="User" asp-action="Course"> Course </a> 
-     }  
-  	else  
-  	{  
-  		<h1 class="display-4">Welcome Guest</h1>  
-  		<a asp-controller="User" asp-action="Login"> Login </a>  
-  		<a asp-controller="User" asp-action="Register"> Register </a>  
- 	}  
-  </div>  *@
-
-
-
 @model IEnumerable<UserManagement.Models.Course>
 
 <!DOCTYPE html>
@@ -91,6 +74,7 @@
     </style>
 </head>
 <body>
+ 
 
     <div class="container mt-5">
         <h2>Courses</h2>
@@ -121,12 +105,13 @@
                     }
                 </tbody>
             </table>
-            <a href="@Url.Action("Create")" class="create-btn">Create New Course</a>
+           
         }
         else
         {
             <p class="text-muted">No courses available.</p>
         }
+        <a href="@Url.Action("Create")" class="create-btn">Create New Course</a>
     </div>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>

@@ -1,0 +1,43 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+}
+@model IEnumerable<UserManagement.Models.User>
+
+<h2 class="profile-header">Thông tin tài khoản</h2>
+  @if (Model != null && Model.Any())
+        {
+<table class="table table-bordered table-striped">
+    <thead>
+        <tr>
+            <th>Username</th>
+            <th>Fullname</th>
+            <th>Password</th>
+            <th>RoleId</th>
+            <th>CreateAt</th>
+            <th>LastLogin</th>
+		    <th>Action</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var user in Model)
+        {
+            <tr>
+                <td>@user.Username</td>
+                <td>@user.Fullname</td>
+                <td>@user.Password</td>
+                <td>@user.RoleId</td>
+                <td>@user.CreatedAt.ToString("dd/MM/yyyy")</td>
+                <td>@user.LastLoginAt.ToString("dd/MM/yyyy HH:mm")</td>
+                <td class="actions">
+                    <a href="@Url.Action("Delete", new { id = user.Id })" class="btn btn-danger btn-sm" style="width:75px">Delete</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+}
+<a href="@Url.Action("Register", "Account")">Create account</a>
+
+

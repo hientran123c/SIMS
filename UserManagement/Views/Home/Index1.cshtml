@@ -1,0 +1,19 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+}
+ <div class="text-center">  
+  	@if (ViewBag.IsLogin != null && ViewBag.IsLogin == 1)  
+ 	{  
+		<h1 class="display-4">Welcome @ViewBag.Fullname</h1> 
+         <a asp-controller="Course" asp-action="index"> Course </a>
+        <a asp-controller="Account" asp-action="ViewAccount"> AccountManagement </a>
+    }  
+  	else  
+  	{  
+  		<h1 class="display-4">Welcome Guest</h1>  
+  		<a asp-controller="User" asp-action="Login"> Login </a>  
+  		<a asp-controller="Course" asp-action="index"> CourseManage </a>  
+ 	}  
+  </div> 

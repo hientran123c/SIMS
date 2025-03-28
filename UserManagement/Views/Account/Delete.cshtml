@@ -1,0 +1,20 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+}
+
+@model UserManagement.Models.User
+
+<h2>Definitely delete this account?</h2>
+<p>Account: @Model.Username</p>
+<p>Fullname: @Model.Fullname</p>
+
+<form asp-action="DeleteConfirmed" asp-route-id="@Model.Id" method="post">
+    <button type="submit" class="btn btn-danger">Delete account?</button>
+    <a href="@Url.Action("ViewAccount", "Account")" class="btn btn-secondary">Cancel</a>
+</form>
+
+
+
+
