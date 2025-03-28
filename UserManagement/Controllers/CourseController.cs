@@ -21,6 +21,12 @@ namespace UserManagement.Controllers
             return View(courses);
         }
 
+        public IActionResult CourseView()
+        {
+            var courses = _courseRepository.GetAllCourses();
+            return View(courses);
+        }
+
         public IActionResult Create()
         {
             return View();

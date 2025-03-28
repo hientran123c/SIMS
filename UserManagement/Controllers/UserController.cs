@@ -39,8 +39,18 @@ namespace UserManagement.Controllers
                 HttpContext.Session.SetString("Username", username);
                 HttpContext.Session.SetString("Fullname", _user.Fullname);
                 HttpContext.Session.SetInt32("IsLogin", 1);
+                switch (_user.RoleId)
+                {
+                    case 1: 
+                        return RedirectToAction("AdminPage", "Home");
+                    case 2:
+                        return RedirectToAction("StudentPage", "Home");
+                    case 3: 
+                        return RedirectToAction("FacultyPage", "Home");
+                    default:
+                        return RedirectToAction("Login", "User");
+                }
             }
-
             return View();
         }
     }

@@ -13,7 +13,29 @@ public class HomeController : Controller
         _logger = logger;
     }
 
-    public IActionResult Index1()
+    public IActionResult AdminPage()
+    {
+        ViewBag.IsLogin = 0;
+        if (HttpContext.Session.GetInt32("IsLogin") == 1 && HttpContext.Session.GetString("Fullname") != null)
+        {
+            ViewBag.Fullname = HttpContext.Session.GetString("Fullname");
+            ViewBag.IsLogin = 1;
+        }
+        return View();
+    }
+
+    public IActionResult StudentPage()
+    {
+        ViewBag.IsLogin = 0;
+        if (HttpContext.Session.GetInt32("IsLogin") == 1 && HttpContext.Session.GetString("Fullname") != null)
+        {
+            ViewBag.Fullname = HttpContext.Session.GetString("Fullname");
+            ViewBag.IsLogin = 1;
+        }
+        return View();
+    }
+
+    public IActionResult FacultyPage()
     {
         ViewBag.IsLogin = 0;
         if (HttpContext.Session.GetInt32("IsLogin") == 1 && HttpContext.Session.GetString("Fullname") != null)
