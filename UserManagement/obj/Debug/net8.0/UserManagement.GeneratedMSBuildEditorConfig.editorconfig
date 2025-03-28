@@ -17,77 +17,77 @@ build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = UserManagement
 build_property.RootNamespace = UserManagement
-build_property.ProjectDir = D:\Learning\Aplied programming\SIMS\UserManagement\
+build_property.ProjectDir = C:\GIT\SIMS\UserManagement\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.RazorLangVersion = 8.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = D:\Learning\Aplied programming\SIMS\UserManagement
+build_property.MSBuildProjectDirectory = C:\GIT\SIMS\UserManagement
 build_property._RazorSourceGeneratorDebug = 
 build_property.EffectiveAnalysisLevelStyle = 8.0
 build_property.EnableCodeStyleSeverity = 
 
-[D:/Learning/Aplied programming/SIMS/UserManagement/Views/Account/Delete.cshtml]
+[C:/GIT/SIMS/UserManagement/Views/Account/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxEZWxldGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Learning/Aplied programming/SIMS/UserManagement/Views/Account/Register.cshtml]
+[C:/GIT/SIMS/UserManagement/Views/Account/Register.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxSZWdpc3Rlci5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Learning/Aplied programming/SIMS/UserManagement/Views/Account/ViewAccount.cshtml]
+[C:/GIT/SIMS/UserManagement/Views/Account/ViewAccount.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxWaWV3QWNjb3VudC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Learning/Aplied programming/SIMS/UserManagement/Views/Course/CourseView.cshtml]
+[C:/GIT/SIMS/UserManagement/Views/Course/CourseView.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ291cnNlXENvdXJzZVZpZXcuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Learning/Aplied programming/SIMS/UserManagement/Views/Course/Create.cshtml]
+[C:/GIT/SIMS/UserManagement/Views/Course/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ291cnNlXENyZWF0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Learning/Aplied programming/SIMS/UserManagement/Views/Course/Delete.cshtml]
+[C:/GIT/SIMS/UserManagement/Views/Course/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ291cnNlXERlbGV0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Learning/Aplied programming/SIMS/UserManagement/Views/Course/Edit.cshtml]
+[C:/GIT/SIMS/UserManagement/Views/Course/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ291cnNlXEVkaXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Learning/Aplied programming/SIMS/UserManagement/Views/Course/index.cshtml]
+[C:/GIT/SIMS/UserManagement/Views/Course/index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ291cnNlXGluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Learning/Aplied programming/SIMS/UserManagement/Views/Home/Index1.cshtml]
+[C:/GIT/SIMS/UserManagement/Views/Home/Index1.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleDEuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Learning/Aplied programming/SIMS/UserManagement/Views/Home/Privacy.cshtml]
+[C:/GIT/SIMS/UserManagement/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Learning/Aplied programming/SIMS/UserManagement/Views/Shared/Error.cshtml]
+[C:/GIT/SIMS/UserManagement/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Learning/Aplied programming/SIMS/UserManagement/Views/Shared/_ValidationScriptsPartial.cshtml]
+[C:/GIT/SIMS/UserManagement/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Learning/Aplied programming/SIMS/UserManagement/Views/User/Login.cshtml]
+[C:/GIT/SIMS/UserManagement/Views/User/Login.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlclxMb2dpbi5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Learning/Aplied programming/SIMS/UserManagement/Views/_ViewImports.cshtml]
+[C:/GIT/SIMS/UserManagement/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Learning/Aplied programming/SIMS/UserManagement/Views/_ViewStart.cshtml]
+[C:/GIT/SIMS/UserManagement/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Learning/Aplied programming/SIMS/UserManagement/Views/Shared/_Layout.cshtml]
+[C:/GIT/SIMS/UserManagement/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-6s5nqko3df
