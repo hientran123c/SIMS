@@ -706,3 +706,4 @@ C:\GIT\SIMS\UserManagement\obj\Debug\net8.0\refint\UserManagement.dll
 C:\GIT\SIMS\UserManagement\obj\Debug\net8.0\UserManagement.pdb
 C:\GIT\SIMS\UserManagement\obj\Debug\net8.0\UserManagement.genruntimeconfig.cache
 C:\GIT\SIMS\UserManagement\obj\Debug\net8.0\ref\UserManagement.dll
+C:\GIT\SIMS\UserManagement\bin\Debug\net8.0\appsettings.json
