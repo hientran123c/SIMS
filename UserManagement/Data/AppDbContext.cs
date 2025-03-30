@@ -1,4 +1,5 @@
 ﻿using Microsoft.EntityFrameworkCore;
+using UserManagement.Models;
 
 namespace UserManagement.Data
 {
@@ -10,6 +11,7 @@ namespace UserManagement.Data
         }   
         public DbSet<UserManagement.Models.User> Users { get; set; }
         public DbSet<UserManagement.Models.Role> Roles { get; set; }
-        public DbSet<UserManagement.Models.Course> Courses { get; set; }    
+        public DbSet<UserManagement.Models.Course> Courses { get; set; }
+     
     }
 }

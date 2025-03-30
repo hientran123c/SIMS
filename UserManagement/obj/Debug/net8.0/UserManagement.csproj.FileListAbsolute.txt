@@ -511,7 +511,6 @@ D:\Learning\Aplied programming\SIMS\UserManagement\obj\Debug\net8.0\UserManageme
 D:\Learning\Aplied programming\SIMS\UserManagement\obj\Debug\net8.0\UserManagement.RazorAssemblyInfo.cache
 D:\Learning\Aplied programming\SIMS\UserManagement\obj\Debug\net8.0\UserManagement.RazorAssemblyInfo.cs
 D:\Learning\Aplied programming\SIMS\UserManagement\obj\Debug\net8.0\UserManagement.sourcelink.json
-D:\Learning\Aplied programming\SIMS\UserManagement\obj\Debug\net8.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
 D:\Learning\Aplied programming\SIMS\UserManagement\obj\Debug\net8.0\scopedcss\bundle\UserManagement.styles.css
 D:\Learning\Aplied programming\SIMS\UserManagement\obj\Debug\net8.0\scopedcss\projectbundle\UserManagement.bundle.scp.css
 D:\Learning\Aplied programming\SIMS\UserManagement\obj\Debug\net8.0\staticwebassets.build.json
@@ -530,3 +529,4 @@ D:\Learning\Aplied programming\SIMS\UserManagement\obj\Debug\net8.0\refint\UserM
 D:\Learning\Aplied programming\SIMS\UserManagement\obj\Debug\net8.0\UserManagement.pdb
 D:\Learning\Aplied programming\SIMS\UserManagement\obj\Debug\net8.0\UserManagement.genruntimeconfig.cache
 D:\Learning\Aplied programming\SIMS\UserManagement\obj\Debug\net8.0\ref\UserManagement.dll
+D:\Learning\Aplied programming\SIMS\UserManagement\obj\Debug\net8.0\scopedcss\Views\Shared\_Layout1.cshtml.rz.scp.css

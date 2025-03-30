@@ -8,9 +8,10 @@ namespace UserManagement.Controllers
     public class UserController : Controller
     {
         private readonly IUserRepository _userRepository;
-
+      
         public UserController(IUserRepository userRepository)
         {
+            ViewData["Layout"] = "_Layout1";
             _userRepository = userRepository;
         }
 
@@ -34,22 +35,14 @@ namespace UserManagement.Controllers
 
             if (_user != null)
             {
-                ViewBag.Username = _user.Username;
-                ViewBag.IsLogin = true;
                 HttpContext.Session.SetString("Username", username);
                 HttpContext.Session.SetString("Fullname", _user.Fullname);
                 HttpContext.Session.SetInt32("IsLogin", 1);
-                switch (_user.RoleId)
-                {
-                    case 1: 
-                        return RedirectToAction("AdminPage", "Home");
-                    case 2:
-                        return RedirectToAction("StudentPage", "Home");
-                    case 3: 
-                        return RedirectToAction("FacultyPage", "Home");
-                    default:
-                        return RedirectToAction("Login", "User");
-                }
+
+                ViewBag.Username = _user.Username;
+                ViewBag.IsLogin = true;
+                ViewBag.RoleId = _user.RoleId;  
+                return View(); 
             }
             return View();
         }
