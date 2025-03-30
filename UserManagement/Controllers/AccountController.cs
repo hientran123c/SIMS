@@ -14,23 +14,23 @@ namespace UserManagement.Controllers
             _userRepository = userRepository;
         }
 
-        // Trang hiển thị thông tin tài khoản
         [HttpGet]
         public IActionResult ViewAccount()
         {
-            // Lấy thông tin tài khoản người dùng từ session
-            string username = HttpContext.Session.GetString("Username");
-
+            string? username = HttpContext.Session.GetString("Username");
             if (string.IsNullOrEmpty(username))
             {
-                return RedirectToAction("Login", "User"); 
+                return RedirectToAction("Login", "User");
             }
 
             var users = _userRepository.GetAllUsers();
+            var roles = _userRepository.GetRoles();
+            var roleDictionary = roles.ToDictionary(r => r.Id, r => r.Name);
+            ViewBag.RoleDictionary = roleDictionary;
             return View(users);
         }
 
-        // Trang xóa tài khoản
+      
         [HttpGet]
         public IActionResult Delete(int id)
         {
@@ -62,11 +62,19 @@ namespace UserManagement.Controllers
         {
             if (ModelState.IsValid)
             {
+                if (user.Password != user.ConfirmPassword)
+                {
+                    ModelState.AddModelError("ConfirmPassword", "The password and confirmation password do not match.");
+                    return View();
+                }
+
                 var existingUser = _userRepository.GetUserByUsername(user.Username);
                 if (existingUser != null)
                 {
                     ModelState.AddModelError("", "Username is already taken.");
-                    return View();
+                    var roles = _userRepository.GetRoles();
+                    ViewBag.Roles = new SelectList(roles, "Id", "Name", user.RoleId); // Preserve selected RoleId
+                    return View(user);
                 }
 
                 user.CreatedAt = DateTime.Now;
@@ -81,9 +89,16 @@ namespace UserManagement.Controllers
                 else
                 {
                     ModelState.AddModelError("", "Error creating the user. Please try again.");
+                    var roles = _userRepository.GetRoles();
+                    ViewBag.Roles = new SelectList(roles, "Id", "Name", user.RoleId);
                 }
             }
-            return View();
+            else
+            {
+                var roles = _userRepository.GetRoles();
+                ViewBag.Roles = new SelectList(roles, "Id", "Name", user.RoleId);
+            }
+            return View(user);
         }
     }
 }

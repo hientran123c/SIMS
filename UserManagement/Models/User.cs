@@ -1,4 +1,5 @@
 ﻿using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations.Schema;
 
 namespace UserManagement.Models
 {
@@ -14,6 +15,9 @@ namespace UserManagement.Models
         [Required]
         [StringLength(100)]
         public string Password { get; set; }
+
+        [NotMapped] 
+        public string ConfirmPassword { get; set; }
 
         [Required]
         [StringLength(50)]

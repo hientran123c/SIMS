@@ -8,14 +8,18 @@ namespace UserManagement.Controllers
     public class CourseController : Controller
     {
         private readonly ICourseRepository _courseRepository;
-
         public CourseController(ICourseRepository courseRepository)
         {
             _courseRepository = courseRepository;
         }
 
-        // GET: Course
         public IActionResult Index()
+        {
+            var courses = _courseRepository.GetAllCourses();
+            return View(courses);
+        }
+
+        public IActionResult CourseView()
         {
             var courses = _courseRepository.GetAllCourses();
             return View(courses);
@@ -26,7 +30,6 @@ namespace UserManagement.Controllers
             return View();
         }
 
-        // POST: Course/Create
         [HttpPost]
         [ValidateAntiForgeryToken]
         public IActionResult Create(Course course)
@@ -43,7 +46,6 @@ namespace UserManagement.Controllers
             return View(course);
         }
 
-        // GET: Course/Edit/5
         public IActionResult Edit(int id)
         {
             var course = _courseRepository.GetCourseById(id);
@@ -54,7 +56,6 @@ namespace UserManagement.Controllers
             return View(course);
         }
 
-        // POST: Course/Edit/5
         [HttpPost]
         [ValidateAntiForgeryToken]
         public IActionResult Edit(int id, Course course)
@@ -82,17 +83,15 @@ namespace UserManagement.Controllers
             var course = _courseRepository.GetCourseById(id);
             if (course == null)
             {
-                return NotFound();  // Return NotFound if the course doesn't exist
+                return NotFound();  
             }
-            return View(course); // Show confirmation page
+            return View(course); 
         }
 
-        // POST: Course/Delete/5
         [HttpPost, ActionName("Delete")]
         [ValidateAntiForgeryToken]
         public IActionResult DeleteConfirmed(int id)
         {
-            // Call repository method to delete the course
             bool isDeleted = _courseRepository.DeleteCourse(id);
             if (isDeleted)
             {

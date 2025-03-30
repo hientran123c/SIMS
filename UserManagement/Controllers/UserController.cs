@@ -8,9 +8,10 @@ namespace UserManagement.Controllers
     public class UserController : Controller
     {
         private readonly IUserRepository _userRepository;
-
+      
         public UserController(IUserRepository userRepository)
         {
+            ViewData["Layout"] = "_Layout1";
             _userRepository = userRepository;
         }
 
@@ -34,13 +35,15 @@ namespace UserManagement.Controllers
 
             if (_user != null)
             {
-                ViewBag.Username = _user.Username;
-                ViewBag.IsLogin = true;
                 HttpContext.Session.SetString("Username", username);
                 HttpContext.Session.SetString("Fullname", _user.Fullname);
                 HttpContext.Session.SetInt32("IsLogin", 1);
-            }
 
+                ViewBag.Username = _user.Username;
+                ViewBag.IsLogin = true;
+                ViewBag.RoleId = _user.RoleId;  
+                return View(); 
+            }
             return View();
         }
     }

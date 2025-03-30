@@ -1,4 +1,5 @@
-﻿using UserManagement.Data;
+﻿using Microsoft.EntityFrameworkCore;
+using UserManagement.Data;
 using UserManagement.Models;
 
 namespace UserManagement.Repositories
@@ -11,7 +12,6 @@ namespace UserManagement.Repositories
         {
             _context = context;
         }
-
 
         public bool CreateUser(User user)
         {
@@ -108,6 +108,7 @@ namespace UserManagement.Repositories
             }
         }
 
+       
         public IEnumerable<Role> GetRoles()
         {
             return _context.Roles?.ToList() ?? new List<Role>();
