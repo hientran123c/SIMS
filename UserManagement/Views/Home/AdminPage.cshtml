@@ -6,7 +6,7 @@
   	@if (ViewBag.IsLogin != null && ViewBag.IsLogin == 1)  
  	{  
 		<h1 class="display-4">Welcome @ViewBag.Fullname</h1> 
-         <a asp-controller="User" asp-action="Login"> Logout </a>
+        <a asp-controller="User" asp-action="Login"> Logout </a>
     }  
   	else  
   	{  
@@ -14,4 +14,4 @@
   		<a asp-controller="User" asp-action="Login"> Login </a>  
   		<a asp-controller="Course" asp-action="index"> CourseManage </a>  
  	}  
-  </div> 
+  </div>

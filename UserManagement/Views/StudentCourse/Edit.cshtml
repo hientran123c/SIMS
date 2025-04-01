@@ -1,0 +1,23 @@
+@{
+    ViewData["Title"] = "Edit Student Course";
+}
+
+<h2>Edit Student Course</h2>
+
+<form asp-action="Edit">
+    <!-- Add form fields for editing student course -->
+    <input type="hidden" name="Id" value="@Model.Id" />
+    <div>
+        <label for="StudentName">Student Name</label>
+        <input type="text" id="StudentName" name="StudentName" value="@Model.StudentName" required />
+    </div>
+    <div>
+        <label for="CourseName">Course Name</label>
+        <input type="text" id="CourseName" name="CourseName" value="@Model.CourseName" required />
+    </div>
+    <div>
+        <label for="EnrollmentDate">Enrollment Date</label>
+        <input type="date" id="EnrollmentDate" name="EnrollmentDate" value="@Model.EnrollmentDate" required />
+    </div>
+    <button type="submit">Save</button>
+</form>
