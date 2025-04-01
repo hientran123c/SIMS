@@ -17,7 +17,6 @@
             {
                 context.Response.Redirect("/User/Login");
             }
-
             else
             {
                 await _next(context);

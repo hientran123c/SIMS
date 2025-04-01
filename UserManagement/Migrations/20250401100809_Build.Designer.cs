@@ -3,6 +3,7 @@ using System;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using UserManagement.Data;
 
@@ -11,9 +12,11 @@ using UserManagement.Data;
 namespace UserManagement.Migrations
 {
     [DbContext(typeof(AppDbContext))]
-    partial class AppDbContextModelSnapshot : ModelSnapshot
+    [Migration("20250401100809_Build")]
+    partial class Build
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        /// <inheritdoc />
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -46,12 +49,7 @@ namespace UserManagement.Migrations
                         .HasMaxLength(100)
                         .HasColumnType("nvarchar(100)");
 
-                    b.Property<int?>("UserCourseId")
-                        .HasColumnType("int");
-
                     b.HasKey("Id");
-
-                    b.HasIndex("UserCourseId");
 
                     b.ToTable("Courses");
                 });
@@ -101,9 +99,6 @@ namespace UserManagement.Migrations
                     b.Property<int>("RoleId")
                         .HasColumnType("int");
 
-                    b.Property<int?>("UserCourseId")
-                        .HasColumnType("int");
-
                     b.Property<string>("Username")
                         .IsRequired()
                         .HasMaxLength(100)
@@ -113,35 +108,7 @@ namespace UserManagement.Migrations
 
                     b.HasIndex("RoleId");
 
-                    b.HasIndex("UserCourseId");
-
                     b.ToTable("Users");
-                });
-
-            modelBuilder.Entity("UserManagement.Models.UserCourse", b =>
-                {
-                    b.Property<int>("Id")
-                        .ValueGeneratedOnAdd()
-                        .HasColumnType("int");
-
-                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
-
-                    b.Property<int>("CourseId")
-                        .HasColumnType("int");
-
-                    b.Property<int>("UserId")
-                        .HasColumnType("int");
-
-                    b.HasKey("Id");
-
-                    b.ToTable("UserCourses");
-                });
-
-            modelBuilder.Entity("UserManagement.Models.Course", b =>
-                {
-                    b.HasOne("UserManagement.Models.UserCourse", null)
-                        .WithMany("Courses")
-                        .HasForeignKey("UserCourseId");
                 });
 
             modelBuilder.Entity("UserManagement.Models.User", b =>
@@ -151,21 +118,10 @@ namespace UserManagement.Migrations
                         .HasForeignKey("RoleId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
-
-                    b.HasOne("UserManagement.Models.UserCourse", null)
-                        .WithMany("Users")
-                        .HasForeignKey("UserCourseId");
                 });
 
             modelBuilder.Entity("UserManagement.Models.Role", b =>
                 {
-                    b.Navigation("Users");
-                });
-
-            modelBuilder.Entity("UserManagement.Models.UserCourse", b =>
-                {
-                    b.Navigation("Courses");
-
                     b.Navigation("Users");
                 });
 #pragma warning restore 612, 618

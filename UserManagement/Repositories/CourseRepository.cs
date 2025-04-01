@@ -36,7 +36,6 @@ namespace UserManagement.Repositories
                 return false;
             }
         }
-
         public bool UpdateCourse(Course course)
         {
             try
@@ -66,7 +65,6 @@ namespace UserManagement.Repositories
             }
             catch (Exception ex)
             {
-                // Log the exception if needed
                 return false;
             }
         }

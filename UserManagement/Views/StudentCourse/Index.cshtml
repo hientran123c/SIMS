@@ -1,3 +1,5 @@
+@* @model IEnumerable<UserManagement.Models.StudentCourse>
+
 @{
     ViewData["Title"] = "Student Courses";
 }
@@ -7,27 +9,28 @@
 <table>
     <thead>
         <tr>
-            <th>Student Name</th>
-            <th>Course Name</th>
-            <th>Enrollment Date</th>
+            <th>Student ID</th>
+            <th>Course ID</th>
+            <th>Begin Time</th>
+            <th>End Time</th>
             <th>Actions</th>
         </tr>
     </thead>
     <tbody>
-        @foreach (var item in Model)
+        @foreach (var course in Model)
         {
             <tr>
-                <td>@item.StudentName</td>
-                <td>@item.CourseName</td>
-                <td>@item.EnrollmentDate</td>
+                <td>@course.StudentId</td>
+                <td>@course.CourseId</td>
+                <td>@course.BeginTime</td>
+                <td>@course.EndTime</td>
                 <td>
-                    <a asp-action="Edit" asp-route-id="@item.Id">Edit</a> |
-                    <a asp-action="Delete" asp-route-id="@item.Id">Delete</a> |
-                    <a asp-action="StudentCourseView" asp-route-id="@item.Id">View</a>
+                    <a asp-action="Edit" asp-route-id="@course.Id">Edit</a> |
+                    <a asp-action="Delete" asp-route-id="@course.Id">Delete</a>
                 </td>
             </tr>
         }
     </tbody>
 </table>
 
-<a asp-action="Create">Add New Student Course</a>
+<a asp-action="Create">Add New Course</a> *@

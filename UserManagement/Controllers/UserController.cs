@@ -1,5 +1,6 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
+using Microsoft.EntityFrameworkCore;
 using UserManagement.Models;
 using UserManagement.Repositories;
 
@@ -8,10 +9,9 @@ namespace UserManagement.Controllers
     public class UserController : Controller
     {
         private readonly IUserRepository _userRepository;
-      
+
         public UserController(IUserRepository userRepository)
         {
-            ViewData["Layout"] = "_Layout1";
             _userRepository = userRepository;
         }
 
@@ -32,7 +32,6 @@ namespace UserManagement.Controllers
             string username = user.Username;
             string password = user.Password;
             var _user = _userRepository.GetUserByUsernameAndPassword(username, password);
-
             if (_user != null)
             {
                 HttpContext.Session.SetString("Username", username);

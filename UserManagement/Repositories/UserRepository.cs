@@ -23,6 +23,21 @@ namespace UserManagement.Repositories
             }
             catch (Exception ex)
             {
+                Console.WriteLine($"Error creating user: {ex.Message}");
+                return false;
+            }
+        }
+
+        public bool UpdateUser(User user)
+        {
+            try
+            {
+                _context.Users.Update(user);
+                _context.SaveChanges();
+                return true;
+            }
+            catch (Exception ex)
+            {
                 return false;
             }
         }
@@ -54,7 +69,7 @@ namespace UserManagement.Repositories
             }
             catch (Exception ex)
             {
-                return Enumerable.Empty<User>(); // null
+                return Enumerable.Empty<User>();
             }
         }
 
@@ -94,25 +109,29 @@ namespace UserManagement.Repositories
             }
         }
 
-        public bool UpdateUser(User user)
-        {
-            try
-            {
-                _context.Users.Update(user);
-                _context.SaveChanges();
-                return true;
-            }
-            catch (Exception ex)
-            {
-                return false;
-            }
-        }
-
-       
         public IEnumerable<Role> GetRoles()
         {
             return _context.Roles?.ToList() ?? new List<Role>();
         }
+
+        public bool AssignCourseToUser(int userId, int courseId)
+        {
+            var user = _context.Users.FirstOrDefault(u => u.Id == userId && u.RoleId == 2);
+            if (user == null)
+            {
+                return false; 
+            }
+
+            var userCourse = new UserCourse
+            {
+                UserId = userId,
+                CourseId = courseId
+            };
+            _context.UserCourses.Add(userCourse);
+            _context.SaveChanges();
+            return true;
+        }
+
     }
 }
 

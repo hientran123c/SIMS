@@ -1,4 +1,9 @@
-﻿@model UserManagement.Models.Course
+﻿@{
+    ViewData["Title"] = "DeleteCourse";
+    Layout = "_Layout2";
+}
+<link href="~/css/CUD.css" rel="stylesheet" />
+@model UserManagement.Models.Course
 
 <h2>Delete Course</h2>
 
@@ -8,6 +13,6 @@
 
 <form asp-action="Delete" method="post">
     <button type="submit" class="btn btn-danger">Delete</button>
-    <a href="@Url.Action("index")" class="btn btn-secondary">Cancel</a>
+    <a href="@Url.Action("ManageCourse")" class="btn btn-secondary">Cancel</a>
 </form>
 

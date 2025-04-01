@@ -1,22 +1,27 @@
+@* @model UserManagement.Models.StudentCourse
+
 @{
     ViewData["Title"] = "Create Student Course";
 }
 
 <h2>Create Student Course</h2>
 
-<form asp-action="Create">
-    <!-- Add form fields for student course creation -->
+<form asp-action="Create" method="post">
     <div>
-        <label for="StudentName">Student Name</label>
-        <input type="text" id="StudentName" name="StudentName" required />
+        <label>Student ID</label>
+        <input asp-for="StudentId" />
     </div>
     <div>
-        <label for="CourseName">Course Name</label>
-        <input type="text" id="CourseName" name="CourseName" required />
+        <label>Course ID</label>
+        <input asp-for="CourseId" />
     </div>
     <div>
-        <label for="EnrollmentDate">Enrollment Date</label>
-        <input type="date" id="EnrollmentDate" name="EnrollmentDate" required />
+        <label>Begin Time</label>
+        <input asp-for="BeginTime" type="datetime-local" />
+    </div>
+    <div>
+        <label>End Time</label>
+        <input asp-for="EndTime" type="datetime-local" />
     </div>
     <button type="submit">Create</button>
-</form>
+</form> *@

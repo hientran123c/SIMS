@@ -1,0 +1,30 @@
+﻿@{
+    ViewData["Title"] = "Assign Course to User";
+	Layout = "_Layout2";
+}
+
+<h2>@ViewData["Title"]</h2>
+
+<form method="post">
+    <div class="form-group">
+        <label for="UserId">Select User</label>
+        <select id="UserId" name="userId" class="form-control">
+            @foreach (var user in ViewBag.Users as List<User>)
+            {
+                <option value="@user.Id">@user.Fullname</option>
+            }
+        </select>
+    </div>
+
+    <div class="form-group">
+        <label for="CourseId">Select Course</label>
+        <select id="CourseId" name="courseId" class="form-control">
+            @foreach (var course in ViewBag.Courses as List<Course>)
+            {
+                <option value="@course.Id">@course.Name</option>
+            }
+        </select>
+    </div>
+
+    <button type="submit" class="btn btn-primary">Assign Course</button>
+</form>

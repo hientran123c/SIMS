@@ -33,12 +33,13 @@
                         }
                         else
                         {
-                            <span>Unknown Role</span> <!-- Nếu không tìm thấy RoleId -->
+                            <span>Unknown Role</span> 
                         }
                     </td>
                 <td>@user.CreatedAt.ToString("dd/MM/yyyy")</td>
                 <td>@user.LastLoginAt.ToString("dd/MM/yyyy HH:mm")</td>
                 <td class="actions">
+                        <a href="@Url.Action("Edit", new { id = user.Id })" class="btn btn-warning btn-sm" style="width:75px">Edit</a>
                     <a href="@Url.Action("Delete", new { id = user.Id })" class="btn btn-danger btn-sm" style="width:75px">Delete</a>
                 </td>
             </tr>
@@ -49,3 +50,103 @@
 <a href="@Url.Action("Register", "Account")" class="create-btn">Create account</a>
 
 
+<style>
+    body {
+        margin: 0;
+        padding: 0;
+    }
+
+    .profile-header {
+        text-align: center;
+        font-size: 2em;
+        color: #333;
+    }
+
+   .table {
+        width: 100%;
+        margin: 20px 0;
+        border-collapse: collapse;
+        border: 1px solid #ddd;
+    }
+
+        .table th, .table td {
+            padding: 12px;
+            text-align: left;
+            border: 1px solid #ddd;
+        }
+
+        .table th {
+            background-color: #4CAF50;
+            color: white;
+            font-weight: bold;
+        }
+
+        .table tbody tr:nth-child(odd) {
+            background-color: #f9f9f9;
+        }
+
+        .table tbody tr:hover {
+            background-color: #e6e6e6;
+        }
+
+    .actions {
+        width: 200px;
+        text-align: center;
+    }
+
+        .actions a {
+            text-decoration: none;
+            color: white;
+            padding: 5px 15px;
+            margin: 0 5px;
+            border-radius: 4px;
+            font-size: 14px;
+        }
+
+            .actions a:hover {
+                background-color: #f57c00;
+            }
+
+    .create-btn {
+        display: inline-block;
+        padding: 10px 20px;
+        background-color: #4CAF50;
+        color: white;
+        font-size: 16px;
+        border-radius: 5px;
+        text-decoration: none;
+        margin-top: 20px;
+        display: block;
+        width: fit-content;
+    }
+
+        .create-btn:hover {
+            background-color: #388e3c;
+        }
+
+    media screen and (max-width: 768px) {
+        .table th, .table td
+
+    {
+        padding: 8px;
+    }
+
+    .create-btn {
+        width: 100%;
+        padding: 12px 20px;
+        font-size: 18px;
+    }
+
+    .profile-header {
+        font-size: 1.5em;
+    }
+
+    .actions a {
+        width: 100%;
+        display: block;
+        margin-bottom: 5px;
+        text-align: center;
+    }
+
+    }
+</style>

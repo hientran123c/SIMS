@@ -30,7 +30,45 @@ namespace UserManagement.Controllers
             return View(users);
         }
 
-      
+        [HttpGet]
+        public IActionResult Edit(int id)
+        {
+            var user = _userRepository.GetUserById(id);
+            if (user == null)
+            {
+                return NotFound();
+            }
+
+            var roles = _userRepository.GetRoles();
+            ViewBag.Roles = new SelectList(roles, "Id", "Name", user.RoleId); // Include roles in the view
+
+            return View(user);
+        }
+
+        [HttpPost]
+        [ValidateAntiForgeryToken]
+        public IActionResult Edit(int id, User user)
+        {
+            if (id != user.Id)
+            {
+                return NotFound();
+            }
+
+            if (ModelState.IsValid)
+            {
+                bool isUpdated = _userRepository.UpdateUser(user);
+                if (isUpdated)
+                {
+                    return RedirectToAction("ViewAccount", "Account");
+                }
+
+                ModelState.AddModelError("", "Error updating user.");
+            }
+            var roles = _userRepository.GetRoles();
+            ViewBag.Roles = new SelectList(roles, "Id", "Name", user.RoleId); 
+            return View(user);
+        }
+
         [HttpGet]
         public IActionResult Delete(int id)
         {
@@ -73,7 +111,7 @@ namespace UserManagement.Controllers
                 {
                     ModelState.AddModelError("", "Username is already taken.");
                     var roles = _userRepository.GetRoles();
-                    ViewBag.Roles = new SelectList(roles, "Id", "Name", user.RoleId); // Preserve selected RoleId
+                    ViewBag.Roles = new SelectList(roles, "Id", "Name", user.RoleId); 
                     return View(user);
                 }
 
@@ -84,7 +122,7 @@ namespace UserManagement.Controllers
                 {
                     TempData["RegisterMessage"] = "Registration successful!";
                     TempData["Redirect"] = Url.Action("ViewAccount", "Account");
-                    return View(); 
+                    return View();
                 }
                 else
                 {
