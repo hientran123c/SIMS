@@ -11,7 +11,6 @@ namespace UserManagement.Models
         public int StudentId { get; set; }
         [Required]
         public int CourseId { get; set; }
-
         public DateTime BeginTime { get; set; }
         public DateTime EndTime { get; set; }
         [Required]

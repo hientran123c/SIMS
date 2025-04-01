@@ -1,6 +1,8 @@
 # Cache files
-bin/    
+bin/
 obj/
+.vs/
+.vscode/
 # git rm -r --cached bin/
 # git rm -r --cached obj/
 

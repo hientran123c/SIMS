@@ -5,8 +5,8 @@ using UserManagement.Data;
 namespace UserManagement.Controllers
 {
     [ApiController]
-    [Route("api/[controller]")]
-    public class StudentCourseController : ControllerBase
+    [Route("[controller]")]
+    public class StudentCourseController : Controller
     {
         private readonly AppDbContext _context;
 
@@ -15,63 +15,101 @@ namespace UserManagement.Controllers
             _context = context;
         }
 
-        [HttpPost]
-        public IActionResult AddCourseForStudent(int studentId, int courseId, DateTime beginTime, DateTime endTime)
+        // Factory Method for creating StudentCourse
+        protected virtual StudentCourse CreateStudentCourse(int studentId, int courseId, DateTime beginTime, DateTime endTime)
         {
-            var studentCourse = new StudentCourse
+            return new StudentCourse
             {
                 StudentId = studentId,
                 CourseId = courseId,
                 BeginTime = beginTime,
                 EndTime = endTime
             };
+        }
+
+        [HttpPost("AddCourseForStudent")]
+        public IActionResult AddCourseForStudent(int studentId, int courseId, DateTime beginTime, DateTime endTime)
+        {
+            var studentCourse = CreateStudentCourse(studentId, courseId, beginTime, endTime);
             _context.StudentCourses.Add(studentCourse);
             _context.SaveChanges();
-            return Ok("Course added successfully.");
+            return RedirectToAction("Index");
         }
 
-        [HttpGet("{studentId}")]
-        public IActionResult GetCoursesForStudent(int studentId)
-        {
-            var courses = _context.StudentCourses
-                .Where(sc => sc.StudentId == studentId)
-                .ToList();
-            return Ok(courses);
-        }
-
-        [HttpGet]
-        public IActionResult GetAllStudentCourses()
+        [HttpGet("Index")]
+        public IActionResult Index()
         {
             var studentCourses = _context.StudentCourses.ToList();
-            return Ok(studentCourses);
+            return View(studentCourses);
         }
 
-        [HttpPut("{id}")]
-        public IActionResult UpdateStudentCourse(int id, [FromBody] StudentCourse updatedCourse)
+        [HttpGet("Create")]
+        public IActionResult Create()
         {
-            var existingCourse = _context.StudentCourses.Find(id);
-            if (existingCourse == null)
-                return NotFound("StudentCourse not found.");
-
-            existingCourse.StudentId = updatedCourse.StudentId;
-            existingCourse.CourseId = updatedCourse.CourseId;
-            existingCourse.BeginTime = updatedCourse.BeginTime;
-            existingCourse.EndTime = updatedCourse.EndTime;
-
-            _context.SaveChanges();
-            return Ok("StudentCourse updated successfully.");
+            return View();
         }
 
-        [HttpDelete("{id}")]
-        public IActionResult DeleteStudentCourse(int id)
+        [HttpPost("Create")]
+        public IActionResult Create(StudentCourse studentCourse)
+        {
+            if (ModelState.IsValid)
+            {
+                _context.StudentCourses.Add(studentCourse);
+                _context.SaveChanges();
+                return RedirectToAction("Index");
+            }
+            return View(studentCourse);
+        }
+
+        [HttpGet("Edit/{id}")]
+        public IActionResult Edit(int id)
         {
             var studentCourse = _context.StudentCourses.Find(id);
             if (studentCourse == null)
-                return NotFound("StudentCourse not found.");
+                return NotFound();
 
-            _context.StudentCourses.Remove(studentCourse);
-            _context.SaveChanges();
-            return Ok("StudentCourse deleted successfully.");
+            return View(studentCourse);
+        }
+
+        [HttpPost("Edit")]
+        public IActionResult Edit(StudentCourse studentCourse)
+        {
+            if (ModelState.IsValid)
+            {
+                _context.StudentCourses.Update(studentCourse);
+                _context.SaveChanges();
+                return RedirectToAction("Index");
+            }
+            return View(studentCourse);
+        }
+
+        [HttpGet("Delete/{id}")]
+        public IActionResult Delete(int id)
+        {
+            var studentCourse = _context.StudentCourses.Find(id);
+            if (studentCourse == null)
+                return NotFound();
+
+            return View(studentCourse);
+        }
+
+        [HttpPost("Delete")]
+        public IActionResult DeleteConfirmed(int id)
+        {
+            var studentCourse = _context.StudentCourses.Find(id);
+            if (studentCourse != null)
+            {
+                _context.StudentCourses.Remove(studentCourse);
+                _context.SaveChanges();
+            }
+            return RedirectToAction("Index");
+        }
+
+        [HttpGet("StudentCourseView")]
+        public IActionResult StudentCourseView()
+        {
+            var studentCourses = _context.StudentCourses.ToList();
+            return View(studentCourses);
         }
     }
 }
