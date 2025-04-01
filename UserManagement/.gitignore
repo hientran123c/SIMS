@@ -1,1 +1,9 @@
+# Cache files
+bin/    
+obj/
+# git rm -r --cached bin/
+# git rm -r --cached obj/
+
+# Security files
 appsettings.json
+.env
