@@ -9,12 +9,13 @@ namespace UserManagement.Models
         public int Id { get; set; }
         [Required]
         public int StudentId { get; set; }
-        public int CourseId { get; set; }
         [Required]
+        public int CourseId { get; set; }
+
         public DateTime BeginTime { get; set; }
         public DateTime EndTime { get; set; }
         [Required]
-        [int Range(1, 100)]
         public int Course { get; set; }
+
     }
 }

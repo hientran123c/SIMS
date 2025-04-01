@@ -13,6 +13,12 @@ namespace UserManagement.Repositories
             _context = context;
         }
 
+        public void CreatStudentCourse(StudentCourse studentCourse)
+        {
+            _context.StudentCourses.Add(studentCourse);
+            _context.SaveChanges();
+        }
+
         public bool CreateStudentCourse(StudentCourse studentCourse)
         {
             try

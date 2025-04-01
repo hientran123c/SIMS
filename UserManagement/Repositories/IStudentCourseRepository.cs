@@ -8,7 +8,7 @@ namespace UserManagement.Repositories
         StudentCourse GetStudentCourseById (int id);
         StudentCourse GetStudentCourseByStudentId (int studentId);
         StudentCourse GetStudentCourseByCourseId (int courseId);
-        bool CreatStudentCourse (StudentCourse studentCourse);
+        void CreatStudentCourse (StudentCourse studentCourse);
         bool UpdateStudentCourse (StudentCourse studentCourse);
         bool DeleteStudentCourse (int id);
         IEnumerable<StudentCourse> GetCourses();

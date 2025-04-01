@@ -4,9 +4,37 @@
 
 <h2>Student Course Details</h2>
 
-<!-- Add fields to display student course details -->
+<!-- Display student course details -->
 <div>
     <p><strong>Student Name:</strong> @Model.StudentName</p>
     <p><strong>Course Name:</strong> @Model.CourseName</p>
     <p><strong>Enrollment Date:</strong> @Model.EnrollmentDate</p>
 </div>
+
+<!-- Form for creating a new student course -->
+<h3>Create Student Course</h3>
+<form asp-action="AddCourseForStudent" method="post">
+    <input type="text" name="StudentId" placeholder="Student ID" required />
+    <input type="text" name="CourseId" placeholder="Course ID" required />
+    <input type="datetime-local" name="BeginTime" required />
+    <input type="datetime-local" name="EndTime" required />
+    <button type="submit">Create</button>
+</form>
+
+<!-- Form for updating an existing student course -->
+<h3>Update Student Course</h3>
+<form asp-action="UpdateStudentCourse" method="post">
+    <input type="hidden" name="Id" value="@Model.Id" />
+    <input type="text" name="StudentId" value="@Model.StudentId" required />
+    <input type="text" name="CourseId" value="@Model.CourseId" required />
+    <input type="datetime-local" name="BeginTime" value="@Model.BeginTime" required />
+    <input type="datetime-local" name="EndTime" value="@Model.EndTime" required />
+    <button type="submit">Update</button>
+</form>
+
+<!-- Form for deleting a student course -->
+<h3>Delete Student Course</h3>
+<form asp-action="DeleteStudentCourse" method="post">
+    <input type="hidden" name="Id" value="@Model.Id" />
+    <button type="submit">Delete</button>
+</form>
