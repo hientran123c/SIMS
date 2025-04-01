@@ -4,7 +4,13 @@ namespace UserManagement.Repositories
 {
     public interface IStudentCourseRepository
     {
-        void AddStudentCourse(StudentCourse studentCourse);
-        IEnumerable<StudentCourse> GetStudentCoursesByStudentId(int studentId);
+        IEnumerable<StudentCourse> GetAllStudentCourses ();
+        StudentCourse GetStudentCourseById (int id);
+        StudentCourse GetStudentCourseByStudentId (int studentId);
+        StudentCourse GetStudentCourseByCourseId (int courseId);
+        bool CreatStudentCourse (StudentCourse studentCourse);
+        bool UpdateStudentCourse (StudentCourse studentCourse);
+        bool DeleteStudentCourse (int id);
+        IEnumerable<StudentCourse> GetCourses();
     }
 }
