@@ -1,1 +1,7 @@
+# Cache files
+bin/
+obj/
+
+# Security files
 appsettings.json
+.env
