@@ -5,9 +5,9 @@ namespace UserManagement.Repositories
 {
     public class StudentCourseRepository : IStudentCourseRepository
     {
-        private readonly StudentCourseDbContext _context;
+        private readonly AppDbContext _context;
 
-        public StudentCourseRepository(StudentCourseDbContext context)
+        public StudentCourseRepository(AppDbContext context)
         {
             _context = context;
         }
