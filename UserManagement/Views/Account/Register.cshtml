@@ -3,7 +3,7 @@
     Layout = "_Layout2";
 }
 
- <div class="container">
+<div class="container mt-5">
     <form asp-controller="Account" asp-action="Register" method="post" class="shadow p-4 rounded border">
         <h1 class="text-center mb-4">Register</h1>
         <div class="form-group mb-3">
@@ -12,24 +12,6 @@
             @if (ViewData.ModelState["Fullname"]?.Errors.Count > 0)
             {
                 <div class="text-danger">@ViewData.ModelState["Fullname"].Errors[0].ErrorMessage</div>
-            }
-        </div>
-
-        <div class="form-group mb-3">
-            <label for="RoleId">Role</label>
-            <select class="form-control" id="RoleId" name="RoleId" required>
-                <option value="">Select Role</option>
-                @if (ViewBag.Roles != null )
-                {
-                    @foreach (var role in ViewBag.Roles as SelectList)
-                    {
-                        <option value="@role.Value">@role.Text</option>
-                    }
-                }
-            </select>
-            @if (ViewData.ModelState["RoleId"]?.Errors.Any() == true)
-            {
-                <span class="text-danger">@ViewData.ModelState["RoleId"].Errors.FirstOrDefault()?.ErrorMessage</span>
             }
         </div>
 
@@ -51,40 +33,56 @@
             }
         </div>
 
-        <div class="form-group">
-            <label for="ConfirmPassword">Confirm Password</label>
+        <div class="form-group mb-3">
+            <label for="ConfirmPassword" class="form-label">Confirm Password</label>
             <input type="password" class="form-control" id="ConfirmPassword" name="ConfirmPassword" placeholder="Confirm Password" />
         </div>
 
-        <div class="form-group mt-3">
-            <button type="submit" class="btn btn-primary w-100 py-2">Register</button>
-        </div>
-        @{
-            var message = TempData["RegisterMessage"] as string;
-            if (!string.IsNullOrEmpty(message))
+        <div class="form-group mb-3">
+            <label for="RoleId" class="form-label">Role</label>
+            <select class="form-control" id="RoleId" name="RoleId" required>
+                <option value="">Select Role</option>
+                @if (ViewBag.Roles != null)
+                {
+                    @foreach (var role in ViewBag.Roles as SelectList)
+                    {
+                        <option value="@role.Value">@role.Text</option>
+                    }
+                }
+            </select>
+            @if (ViewData.ModelState["RoleId"]?.Errors.Any() == true)
             {
-                <div class="alert alert-success" >
-                    @message
-                </div>
+                <span class="text-danger">@ViewData.ModelState["RoleId"].Errors.FirstOrDefault()?.ErrorMessage</span>
             }
+        </div>
+
+        <div class="text-center mt-3">
+            <button type="submit" class="btn btn-primary btn-lg w-100 py-2">Register</button>
+        </div>
+
+        @if (!string.IsNullOrEmpty(TempData["RegisterMessage"] as string))
+        {
+            <div class="alert alert-success mt-3">
+                @TempData["RegisterMessage"]
+            </div>
         }
+
         @if (TempData["Redirect"] != null)
         {
             <script type="text/javascript">
                 setTimeout(function() {
                     window.location.href = '@TempData["Redirect"]';
-                }, 1000); 
+                }, 1000);
             </script>
         }
     </form>
 </div>
 
 <style>
-
-	.container {
-		max-width: 500px;
-        margin-top: 80px; 
-	}
+    .container {
+        max-width: 500px;
+        margin-top: 50px;
+    }
 
     .form-group label {
         font-weight: bold;
@@ -107,6 +105,7 @@
 
     .form-control {
         border-radius: 10px;
+        border: 1px solid #ddd;
     }
 
     .btn-primary {
@@ -124,6 +123,17 @@
     .border {
         border: 1px solid #ddd;
     }
+
+    .form-control:focus {
+        border-color: #007bff;
+        box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+    }
+
+    .text-danger {
+        font-size: 0.875rem;
+        margin-top: 5px;
+    }
 </style>
+
 
 

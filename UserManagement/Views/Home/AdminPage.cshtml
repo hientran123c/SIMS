@@ -6,13 +6,6 @@
   	@if (ViewBag.IsLogin != null && ViewBag.IsLogin == 1)  
  	{  
 		<h1 class="display-4">Welcome @ViewBag.Fullname</h1> 
-        <a asp-controller="User" asp-action="Login"> Logout </a>
-		<a asp-controller="StudentCourse" asp-action="StudentCourseView"> TEST1 </a>
-    }
-  	else  
-  	{  
-  		<h1 class="display-4">Welcome Guest</h1>  
-  		<a asp-controller="User" asp-action="Login"> Login </a>  
-  		<a asp-controller="Course" asp-action="index"> CourseManage </a>  
- 	}  
-  </div>
+         <a asp-controller="User" asp-action="Login"> Logout </a>
+    }  
+  </div> 

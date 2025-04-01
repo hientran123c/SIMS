@@ -2,14 +2,13 @@
 
 namespace UserManagement.Models
 {
-    public class Role
+    public class UserCourse
     {
         [Key]
         public int Id { get; set; }
-
-        [Required]
-        [StringLength(100)]
-        public string Name { get; set; }
+        public int UserId { get; set; }
         public ICollection<User> Users { get; set; }
+        public int CourseId { get; set; }
+        public ICollection<Course> Courses { get; set; }
     }
 }

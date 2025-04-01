@@ -1,5 +1,9 @@
 ﻿using AspNetCoreGeneratedDocument;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.AspNetCore.Mvc.Rendering;
+using Microsoft.EntityFrameworkCore;
+using Microsoft.Extensions.Configuration.UserSecrets;
+using UserManagement.Migrations;
 using UserManagement.Models;
 using UserManagement.Repositories;
 
@@ -8,12 +12,15 @@ namespace UserManagement.Controllers
     public class CourseController : Controller
     {
         private readonly ICourseRepository _courseRepository;
-        public CourseController(ICourseRepository courseRepository)
+        private readonly IUserRepository _userRepository;
+
+        public CourseController(ICourseRepository courseRepository, IUserRepository userRepository)
         {
             _courseRepository = courseRepository;
+            _userRepository = userRepository;
         }
 
-        public IActionResult Index()
+        public IActionResult ManageCourse()
         {
             var courses = _courseRepository.GetAllCourses();
             return View(courses);
@@ -39,7 +46,7 @@ namespace UserManagement.Controllers
                 bool isCreated = _courseRepository.CreateCourse(course);
                 if (isCreated)
                 {
-                    return RedirectToAction(nameof(Index));
+                    return RedirectToAction(nameof(ManageCourse));
                 }
                 ModelState.AddModelError("", "Error creating course");
             }
@@ -70,22 +77,21 @@ namespace UserManagement.Controllers
                 bool isUpdated = _courseRepository.UpdateCourse(course);
                 if (isUpdated)
                 {
-                    return RedirectToAction(nameof(Index));
+                    return RedirectToAction(nameof(ManageCourse));
                 }
                 ModelState.AddModelError("", "Error updating course");
             }
             return View(course);
         }
 
-
         public IActionResult Delete(int id)
         {
             var course = _courseRepository.GetCourseById(id);
             if (course == null)
             {
-                return NotFound();  
+                return NotFound();
             }
-            return View(course); 
+            return View(course);
         }
 
         [HttpPost, ActionName("Delete")]
@@ -95,10 +101,44 @@ namespace UserManagement.Controllers
             bool isDeleted = _courseRepository.DeleteCourse(id);
             if (isDeleted)
             {
-                return RedirectToAction(nameof(Index));
+                return RedirectToAction(nameof(ManageCourse));
             }
             return View();
         }
+
+        public IActionResult AssignCourse()
+        {
+            // Get all users with roleId = 2
+            var users = _userRepository.GetAllUsers().Where(u => u.RoleId == 2).ToList();
+            var courses = _courseRepository.GetAllCourses().ToList();
+            if (users == null || courses == null)
+            {
+                ModelState.AddModelError("", "No users or courses found.");
+                return View();
+            }
+
+            ViewBag.Users = users;  // This will populate the list of users with roleId = 2
+            ViewBag.Courses = courses;
+            return View();
+        }
+
+
+        [HttpPost]
+        [ValidateAntiForgeryToken]
+        public IActionResult AssignCourse(int userId, int courseId)
+        {
+            bool isAssigned = _userRepository.AssignCourseToUser(userId, courseId);
+            if (isAssigned)
+            {
+                return RedirectToAction("ManageCourse"); // Redirect to the course management page
+            }
+            else
+            {
+                ModelState.AddModelError("", "Assignment failed. Ensure the user has the correct role.");
+                return View();
+            }
+        }
+
     }
 }
 
