@@ -3,9 +3,11 @@ bin/
 obj/
 .vs/
 .vscode/
-# git rm -r --cached bin/
-# git rm -r --cached obj/
+# git rm -r --cached <folder chỗ này>/
+
 
 # Security files
 appsettings.json
 .env
+
+# @hientran123c Add lại những phần này khi build Project
