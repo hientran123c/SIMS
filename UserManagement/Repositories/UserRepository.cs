@@ -144,22 +144,6 @@ namespace UserManagement.Repositories
                         };
             return query.ToList(); 
         }
-
-        public IEnumerable<UserCourseViewModel> GetUserCoursesByUserId(int userId)
-        {
-            var query = from userCourse in _context.UserCourses
-                        join user in _context.Users on userCourse.UserId equals user.Id
-                        join course in _context.Courses on userCourse.CourseId equals course.Id
-                        where userCourse.UserId == userId
-                        select new UserCourseViewModel
-                        {
-                            Fullname = user.Fullname,
-                            CourseName = course.Name
-                        };
-
-            return query.ToList();
-        }
-
     }
 }
 

@@ -147,18 +147,6 @@ namespace UserManagement.Controllers
             }
             return View(userCourses);
         }
-
-        public IActionResult ViewMyCourses(int userId)
-        {
-            var user = _userRepository.GetUserById(userId);
-            if (user == null)
-            {
-                return NotFound();
-            }
-            var userCourses = _userRepository.GetUserCoursesByUserId(userId);
-            ViewData["UserFullname"] = user.Fullname;
-            return View(userCourses);
-        }
     }
 }
 
