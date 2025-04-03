@@ -14,5 +14,7 @@ namespace UserManagement.Repositories
         bool DeleteUser(int id);
         IEnumerable<Role> GetRoles();
         bool AssignCourseToUser(int userId, int courseId);
+        IEnumerable<UserCourseViewModel> GetUserCourses();
+        IEnumerable<UserCourseViewModel> GetUserCoursesByUserId(int userId);
     }
 }

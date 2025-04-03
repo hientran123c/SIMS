@@ -2,7 +2,7 @@
     ViewData["Title"] = "Register";
     Layout = "_Layout2";
 }
-
+<link href="~/css/Register.css" rel="stylesheet" />
 <div class="container mt-5">
     <form asp-controller="Account" asp-action="Register" method="post" class="shadow p-4 rounded border">
         <h1 class="text-center mb-4">Register</h1>
@@ -78,62 +78,6 @@
     </form>
 </div>
 
-<style>
-    .container {
-        max-width: 500px;
-        margin-top: 50px;
-    }
-
-    .form-group label {
-        font-weight: bold;
-    }
-
-    .btn-link {
-        color: #007bff;
-        text-decoration: none;
-    }
-
-        .btn-link:hover {
-            text-decoration: underline;
-        }
-
-    .alert-success {
-        font-size: 1.1rem;
-        font-weight: bold;
-        margin-bottom: 20px;
-    }
-
-    .form-control {
-        border-radius: 10px;
-        border: 1px solid #ddd;
-    }
-
-    .btn-primary {
-        border-radius: 5px;
-    }
-
-    .shadow {
-        box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
-    }
-
-    .rounded {
-        border-radius: 10px;
-    }
-
-    .border {
-        border: 1px solid #ddd;
-    }
-
-    .form-control:focus {
-        border-color: #007bff;
-        box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
-    }
-
-    .text-danger {
-        font-size: 0.875rem;
-        margin-top: 5px;
-    }
-</style>
 
 
 

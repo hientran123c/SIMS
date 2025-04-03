@@ -108,7 +108,6 @@ namespace UserManagement.Controllers
 
         public IActionResult AssignCourse()
         {
-            // Get all users with roleId = 2
             var users = _userRepository.GetAllUsers().Where(u => u.RoleId == 2).ToList();
             var courses = _courseRepository.GetAllCourses().ToList();
             if (users == null || courses == null)
@@ -116,8 +115,7 @@ namespace UserManagement.Controllers
                 ModelState.AddModelError("", "No users or courses found.");
                 return View();
             }
-
-            ViewBag.Users = users;  // This will populate the list of users with roleId = 2
+            ViewBag.Users = users; 
             ViewBag.Courses = courses;
             return View();
         }
@@ -130,7 +128,7 @@ namespace UserManagement.Controllers
             bool isAssigned = _userRepository.AssignCourseToUser(userId, courseId);
             if (isAssigned)
             {
-                return RedirectToAction("ManageCourse"); // Redirect to the course management page
+                return RedirectToAction("ManageCourse"); 
             }
             else
             {
@@ -139,6 +137,28 @@ namespace UserManagement.Controllers
             }
         }
 
+        public IActionResult UserCourseList()
+        {
+            var userCourses = _userRepository.GetUserCourses();
+            if (userCourses == null || !userCourses.Any())
+            {
+                ModelState.AddModelError("", "No data found.");
+                return View();
+            }
+            return View(userCourses);
+        }
+
+        public IActionResult ViewMyCourses(int userId)
+        {
+            var user = _userRepository.GetUserById(userId);
+            if (user == null)
+            {
+                return NotFound();
+            }
+            var userCourses = _userRepository.GetUserCoursesByUserId(userId);
+            ViewData["UserFullname"] = user.Fullname;
+            return View(userCourses);
+        }
     }
 }
 

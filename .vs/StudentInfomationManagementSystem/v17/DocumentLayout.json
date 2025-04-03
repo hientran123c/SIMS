@@ -1,170 +1,233 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\Learning\\Aplied programming\\SIMS\\",
+  "WorkspaceRootPath": "D:\\Learning\\Aplied programming\\New folder\\SIMS\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{1A629F52-6682-43F8-94F3-7D20E4BEBECA}|UserManagement\\UserManagement.csproj|d:\\learning\\aplied programming\\sims\\usermanagement\\views\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{1A629F52-6682-43F8-94F3-7D20E4BEBECA}|UserManagement\\UserManagement.csproj|solutionrelative:usermanagement\\views\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1A629F52-6682-43F8-94F3-7D20E4BEBECA}|UserManagement\\UserManagement.csproj|d:\\learning\\aplied programming\\sims\\usermanagement\\views\\account\\viewaccount.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{1A629F52-6682-43F8-94F3-7D20E4BEBECA}|UserManagement\\UserManagement.csproj|solutionrelative:usermanagement\\views\\account\\viewaccount.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1A629F52-6682-43F8-94F3-7D20E4BEBECA}|UserManagement\\UserManagement.csproj|d:\\learning\\aplied programming\\sims\\usermanagement\\views\\shared\\_validationscriptspartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{1A629F52-6682-43F8-94F3-7D20E4BEBECA}|UserManagement\\UserManagement.csproj|solutionrelative:usermanagement\\views\\shared\\_validationscriptspartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1A629F52-6682-43F8-94F3-7D20E4BEBECA}|UserManagement\\UserManagement.csproj|d:\\learning\\aplied programming\\sims\\usermanagement\\views\\shared\\error.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{1A629F52-6682-43F8-94F3-7D20E4BEBECA}|UserManagement\\UserManagement.csproj|solutionrelative:usermanagement\\views\\shared\\error.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1A629F52-6682-43F8-94F3-7D20E4BEBECA}|UserManagement\\UserManagement.csproj|d:\\learning\\aplied programming\\sims\\usermanagement\\views\\shared\\_layout3.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{1A629F52-6682-43F8-94F3-7D20E4BEBECA}|UserManagement\\UserManagement.csproj|solutionrelative:usermanagement\\views\\shared\\_layout3.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1A629F52-6682-43F8-94F3-7D20E4BEBECA}|UserManagement\\UserManagement.csproj|d:\\learning\\aplied programming\\sims\\usermanagement\\views\\shared\\_layout2.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{1A629F52-6682-43F8-94F3-7D20E4BEBECA}|UserManagement\\UserManagement.csproj|solutionrelative:usermanagement\\views\\shared\\_layout2.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1A629F52-6682-43F8-94F3-7D20E4BEBECA}|UserManagement\\UserManagement.csproj|d:\\learning\\aplied programming\\sims\\usermanagement\\views\\shared\\_layout1.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{1A629F52-6682-43F8-94F3-7D20E4BEBECA}|UserManagement\\UserManagement.csproj|solutionrelative:usermanagement\\views\\shared\\_layout1.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1A629F52-6682-43F8-94F3-7D20E4BEBECA}|UserManagement\\UserManagement.csproj|d:\\learning\\aplied programming\\sims\\usermanagement\\views\\home\\adminpage.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{1A629F52-6682-43F8-94F3-7D20E4BEBECA}|UserManagement\\UserManagement.csproj|solutionrelative:usermanagement\\views\\home\\adminpage.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1A629F52-6682-43F8-94F3-7D20E4BEBECA}|UserManagement\\UserManagement.csproj|d:\\learning\\aplied programming\\sims\\usermanagement\\views\\home\\facultypage.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{1A629F52-6682-43F8-94F3-7D20E4BEBECA}|UserManagement\\UserManagement.csproj|solutionrelative:usermanagement\\views\\home\\facultypage.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1A629F52-6682-43F8-94F3-7D20E4BEBECA}|UserManagement\\UserManagement.csproj|d:\\learning\\aplied programming\\sims\\usermanagement\\views\\course\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{1A629F52-6682-43F8-94F3-7D20E4BEBECA}|UserManagement\\UserManagement.csproj|solutionrelative:usermanagement\\views\\course\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1A629F52-6682-43F8-94F3-7D20E4BEBECA}|UserManagement\\UserManagement.csproj|d:\\learning\\aplied programming\\sims\\usermanagement\\views\\account\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{1A629F52-6682-43F8-94F3-7D20E4BEBECA}|UserManagement\\UserManagement.csproj|solutionrelative:usermanagement\\views\\account\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1A629F52-6682-43F8-94F3-7D20E4BEBECA}|UserManagement\\UserManagement.csproj|d:\\learning\\aplied programming\\sims\\usermanagement\\views\\course\\courseview.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{1A629F52-6682-43F8-94F3-7D20E4BEBECA}|UserManagement\\UserManagement.csproj|solutionrelative:usermanagement\\views\\course\\courseview.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1A629F52-6682-43F8-94F3-7D20E4BEBECA}|UserManagement\\UserManagement.csproj|d:\\learning\\aplied programming\\sims\\usermanagement\\views\\course\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{1A629F52-6682-43F8-94F3-7D20E4BEBECA}|UserManagement\\UserManagement.csproj|solutionrelative:usermanagement\\views\\course\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1A629F52-6682-43F8-94F3-7D20E4BEBECA}|UserManagement\\UserManagement.csproj|d:\\learning\\aplied programming\\sims\\usermanagement\\views\\course\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{1A629F52-6682-43F8-94F3-7D20E4BEBECA}|UserManagement\\UserManagement.csproj|solutionrelative:usermanagement\\views\\course\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1A629F52-6682-43F8-94F3-7D20E4BEBECA}|UserManagement\\UserManagement.csproj|d:\\learning\\aplied programming\\sims\\usermanagement\\controllers\\coursecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1A629F52-6682-43F8-94F3-7D20E4BEBECA}|UserManagement\\UserManagement.csproj|solutionrelative:usermanagement\\controllers\\coursecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1A629F52-6682-43F8-94F3-7D20E4BEBECA}|UserManagement\\UserManagement.csproj|d:\\learning\\aplied programming\\sims\\usermanagement\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1A629F52-6682-43F8-94F3-7D20E4BEBECA}|UserManagement\\UserManagement.csproj|solutionrelative:usermanagement\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1A629F52-6682-43F8-94F3-7D20E4BEBECA}|UserManagement\\UserManagement.csproj|d:\\learning\\aplied programming\\sims\\usermanagement\\models\\role.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1A629F52-6682-43F8-94F3-7D20E4BEBECA}|UserManagement\\UserManagement.csproj|solutionrelative:usermanagement\\models\\role.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1A629F52-6682-43F8-94F3-7D20E4BEBECA}|UserManagement\\UserManagement.csproj|d:\\learning\\aplied programming\\sims\\usermanagement\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1A629F52-6682-43F8-94F3-7D20E4BEBECA}|UserManagement\\UserManagement.csproj|solutionrelative:usermanagement\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1A629F52-6682-43F8-94F3-7D20E4BEBECA}|UserManagement\\UserManagement.csproj|d:\\learning\\aplied programming\\sims\\usermanagement\\models\\course.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1A629F52-6682-43F8-94F3-7D20E4BEBECA}|UserManagement\\UserManagement.csproj|solutionrelative:usermanagement\\models\\course.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1A629F52-6682-43F8-94F3-7D20E4BEBECA}|UserManagement\\UserManagement.csproj|d:\\learning\\aplied programming\\sims\\usermanagement\\middleware\\authmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1A629F52-6682-43F8-94F3-7D20E4BEBECA}|UserManagement\\UserManagement.csproj|solutionrelative:usermanagement\\middleware\\authmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1A629F52-6682-43F8-94F3-7D20E4BEBECA}|UserManagement\\UserManagement.csproj|d:\\learning\\aplied programming\\sims\\usermanagement\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1A629F52-6682-43F8-94F3-7D20E4BEBECA}|UserManagement\\UserManagement.csproj|solutionrelative:usermanagement\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1A629F52-6682-43F8-94F3-7D20E4BEBECA}|UserManagement\\UserManagement.csproj|d:\\learning\\aplied programming\\sims\\usermanagement\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1A629F52-6682-43F8-94F3-7D20E4BEBECA}|UserManagement\\UserManagement.csproj|solutionrelative:usermanagement\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1A629F52-6682-43F8-94F3-7D20E4BEBECA}|UserManagement\\UserManagement.csproj|d:\\learning\\aplied programming\\sims\\usermanagement\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1A629F52-6682-43F8-94F3-7D20E4BEBECA}|UserManagement\\UserManagement.csproj|solutionrelative:usermanagement\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1A629F52-6682-43F8-94F3-7D20E4BEBECA}|UserManagement\\UserManagement.csproj|d:\\learning\\aplied programming\\sims\\usermanagement\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1A629F52-6682-43F8-94F3-7D20E4BEBECA}|UserManagement\\UserManagement.csproj|solutionrelative:usermanagement\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1A629F52-6682-43F8-94F3-7D20E4BEBECA}|UserManagement\\UserManagement.csproj|d:\\learning\\aplied programming\\sims\\usermanagement\\views\\user\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{1A629F52-6682-43F8-94F3-7D20E4BEBECA}|UserManagement\\UserManagement.csproj|d:\\learning\\aplied programming\\new folder\\sims\\usermanagement\\views\\user\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{1A629F52-6682-43F8-94F3-7D20E4BEBECA}|UserManagement\\UserManagement.csproj|solutionrelative:usermanagement\\views\\user\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1A629F52-6682-43F8-94F3-7D20E4BEBECA}|UserManagement\\UserManagement.csproj|d:\\learning\\aplied programming\\sims\\usermanagement\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{1A629F52-6682-43F8-94F3-7D20E4BEBECA}|UserManagement\\UserManagement.csproj|solutionrelative:usermanagement\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{1A629F52-6682-43F8-94F3-7D20E4BEBECA}|UserManagement\\UserManagement.csproj|d:\\learning\\aplied programming\\new folder\\sims\\usermanagement\\views\\course\\courseview.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1A629F52-6682-43F8-94F3-7D20E4BEBECA}|UserManagement\\UserManagement.csproj|solutionrelative:usermanagement\\views\\course\\courseview.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1A629F52-6682-43F8-94F3-7D20E4BEBECA}|UserManagement\\UserManagement.csproj|d:\\learning\\aplied programming\\sims\\usermanagement\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{1A629F52-6682-43F8-94F3-7D20E4BEBECA}|UserManagement\\UserManagement.csproj|solutionrelative:usermanagement\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{1A629F52-6682-43F8-94F3-7D20E4BEBECA}|UserManagement\\UserManagement.csproj|d:\\learning\\aplied programming\\new folder\\sims\\usermanagement\\views\\shared\\_layout1.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1A629F52-6682-43F8-94F3-7D20E4BEBECA}|UserManagement\\UserManagement.csproj|solutionrelative:usermanagement\\views\\shared\\_layout1.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1A629F52-6682-43F8-94F3-7D20E4BEBECA}|UserManagement\\UserManagement.csproj|d:\\learning\\aplied programming\\sims\\usermanagement\\repositories\\courserepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1A629F52-6682-43F8-94F3-7D20E4BEBECA}|UserManagement\\UserManagement.csproj|solutionrelative:usermanagement\\repositories\\courserepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{1A629F52-6682-43F8-94F3-7D20E4BEBECA}|UserManagement\\UserManagement.csproj|d:\\learning\\aplied programming\\new folder\\sims\\usermanagement\\wwwroot\\css\\login.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{1A629F52-6682-43F8-94F3-7D20E4BEBECA}|UserManagement\\UserManagement.csproj|solutionrelative:usermanagement\\wwwroot\\css\\login.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1A629F52-6682-43F8-94F3-7D20E4BEBECA}|UserManagement\\UserManagement.csproj|d:\\learning\\aplied programming\\sims\\usermanagement\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{1A629F52-6682-43F8-94F3-7D20E4BEBECA}|UserManagement\\UserManagement.csproj|solutionrelative:usermanagement\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+      "AbsoluteMoniker": "D:0:0:{1A629F52-6682-43F8-94F3-7D20E4BEBECA}|UserManagement\\UserManagement.csproj|d:\\learning\\aplied programming\\new folder\\sims\\usermanagement\\views\\course\\assigncourse.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1A629F52-6682-43F8-94F3-7D20E4BEBECA}|UserManagement\\UserManagement.csproj|solutionrelative:usermanagement\\views\\course\\assigncourse.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1A629F52-6682-43F8-94F3-7D20E4BEBECA}|UserManagement\\UserManagement.csproj|d:\\learning\\aplied programming\\sims\\usermanagement\\repositories\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1A629F52-6682-43F8-94F3-7D20E4BEBECA}|UserManagement\\UserManagement.csproj|solutionrelative:usermanagement\\repositories\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{1A629F52-6682-43F8-94F3-7D20E4BEBECA}|UserManagement\\UserManagement.csproj|d:\\learning\\aplied programming\\new folder\\sims\\usermanagement\\views\\account\\viewaccount.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1A629F52-6682-43F8-94F3-7D20E4BEBECA}|UserManagement\\UserManagement.csproj|solutionrelative:usermanagement\\views\\account\\viewaccount.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1A629F52-6682-43F8-94F3-7D20E4BEBECA}|UserManagement\\UserManagement.csproj|d:\\learning\\aplied programming\\sims\\usermanagement\\repositories\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1A629F52-6682-43F8-94F3-7D20E4BEBECA}|UserManagement\\UserManagement.csproj|solutionrelative:usermanagement\\repositories\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{1A629F52-6682-43F8-94F3-7D20E4BEBECA}|UserManagement\\UserManagement.csproj|d:\\learning\\aplied programming\\new folder\\sims\\usermanagement\\views\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1A629F52-6682-43F8-94F3-7D20E4BEBECA}|UserManagement\\UserManagement.csproj|solutionrelative:usermanagement\\views\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1A629F52-6682-43F8-94F3-7D20E4BEBECA}|UserManagement\\UserManagement.csproj|d:\\learning\\aplied programming\\sims\\usermanagement\\repositories\\icourserepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1A629F52-6682-43F8-94F3-7D20E4BEBECA}|UserManagement\\UserManagement.csproj|solutionrelative:usermanagement\\repositories\\icourserepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{1A629F52-6682-43F8-94F3-7D20E4BEBECA}|UserManagement\\UserManagement.csproj|d:\\learning\\aplied programming\\new folder\\sims\\usermanagement\\wwwroot\\css\\courseview.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{1A629F52-6682-43F8-94F3-7D20E4BEBECA}|UserManagement\\UserManagement.csproj|solutionrelative:usermanagement\\wwwroot\\css\\courseview.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1A629F52-6682-43F8-94F3-7D20E4BEBECA}|UserManagement\\UserManagement.csproj|d:\\learning\\aplied programming\\sims\\usermanagement\\views\\home\\studentpage.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{1A629F52-6682-43F8-94F3-7D20E4BEBECA}|UserManagement\\UserManagement.csproj|solutionrelative:usermanagement\\views\\home\\studentpage.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{1A629F52-6682-43F8-94F3-7D20E4BEBECA}|UserManagement\\UserManagement.csproj|d:\\learning\\aplied programming\\new folder\\sims\\usermanagement\\wwwroot\\css\\viewaccount.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{1A629F52-6682-43F8-94F3-7D20E4BEBECA}|UserManagement\\UserManagement.csproj|solutionrelative:usermanagement\\wwwroot\\css\\viewaccount.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1A629F52-6682-43F8-94F3-7D20E4BEBECA}|UserManagement\\UserManagement.csproj|d:\\learning\\aplied programming\\sims\\usermanagement\\migrations\\20250330040342_buikd.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1A629F52-6682-43F8-94F3-7D20E4BEBECA}|UserManagement\\UserManagement.csproj|solutionrelative:usermanagement\\migrations\\20250330040342_buikd.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{1A629F52-6682-43F8-94F3-7D20E4BEBECA}|UserManagement\\UserManagement.csproj|d:\\learning\\aplied programming\\new folder\\sims\\usermanagement\\wwwroot\\css\\usercourselist.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{1A629F52-6682-43F8-94F3-7D20E4BEBECA}|UserManagement\\UserManagement.csproj|solutionrelative:usermanagement\\wwwroot\\css\\usercourselist.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1A629F52-6682-43F8-94F3-7D20E4BEBECA}|UserManagement\\UserManagement.csproj|d:\\learning\\aplied programming\\sims\\usermanagement\\views\\course\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{1A629F52-6682-43F8-94F3-7D20E4BEBECA}|UserManagement\\UserManagement.csproj|d:\\learning\\aplied programming\\new folder\\sims\\usermanagement\\views\\course\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1A629F52-6682-43F8-94F3-7D20E4BEBECA}|UserManagement\\UserManagement.csproj|solutionrelative:usermanagement\\views\\course\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1A629F52-6682-43F8-94F3-7D20E4BEBECA}|UserManagement\\UserManagement.csproj|d:\\learning\\aplied programming\\new folder\\sims\\usermanagement\\views\\course\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1A629F52-6682-43F8-94F3-7D20E4BEBECA}|UserManagement\\UserManagement.csproj|solutionrelative:usermanagement\\views\\course\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1A629F52-6682-43F8-94F3-7D20E4BEBECA}|UserManagement\\UserManagement.csproj|d:\\learning\\aplied programming\\new folder\\sims\\usermanagement\\views\\course\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{1A629F52-6682-43F8-94F3-7D20E4BEBECA}|UserManagement\\UserManagement.csproj|solutionrelative:usermanagement\\views\\course\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1A629F52-6682-43F8-94F3-7D20E4BEBECA}|UserManagement\\UserManagement.csproj|d:\\learning\\aplied programming\\sims\\usermanagement\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1A629F52-6682-43F8-94F3-7D20E4BEBECA}|UserManagement\\UserManagement.csproj|solutionrelative:usermanagement\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{1A629F52-6682-43F8-94F3-7D20E4BEBECA}|UserManagement\\UserManagement.csproj|d:\\learning\\aplied programming\\new folder\\sims\\usermanagement\\views\\course\\managecourse.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1A629F52-6682-43F8-94F3-7D20E4BEBECA}|UserManagement\\UserManagement.csproj|solutionrelative:usermanagement\\views\\course\\managecourse.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1A629F52-6682-43F8-94F3-7D20E4BEBECA}|UserManagement\\UserManagement.csproj|d:\\learning\\aplied programming\\sims\\usermanagement\\views\\shared\\_layout1.cshtml.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
-      "RelativeMoniker": "D:0:0:{1A629F52-6682-43F8-94F3-7D20E4BEBECA}|UserManagement\\UserManagement.csproj|solutionrelative:usermanagement\\views\\shared\\_layout1.cshtml.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+      "AbsoluteMoniker": "D:0:0:{1A629F52-6682-43F8-94F3-7D20E4BEBECA}|UserManagement\\UserManagement.csproj|d:\\learning\\aplied programming\\new folder\\sims\\usermanagement\\views\\course\\usercourselist.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1A629F52-6682-43F8-94F3-7D20E4BEBECA}|UserManagement\\UserManagement.csproj|solutionrelative:usermanagement\\views\\course\\usercourselist.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1A629F52-6682-43F8-94F3-7D20E4BEBECA}|UserManagement\\UserManagement.csproj|d:\\learning\\aplied programming\\sims\\usermanagement\\usermanagement.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{1A629F52-6682-43F8-94F3-7D20E4BEBECA}|UserManagement\\UserManagement.csproj|solutionrelative:usermanagement\\usermanagement.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+      "AbsoluteMoniker": "D:0:0:{1A629F52-6682-43F8-94F3-7D20E4BEBECA}|UserManagement\\UserManagement.csproj|d:\\learning\\aplied programming\\new folder\\sims\\usermanagement\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1A629F52-6682-43F8-94F3-7D20E4BEBECA}|UserManagement\\UserManagement.csproj|solutionrelative:usermanagement\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1A629F52-6682-43F8-94F3-7D20E4BEBECA}|UserManagement\\UserManagement.csproj|d:\\learning\\aplied programming\\sims\\usermanagement\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "AbsoluteMoniker": "D:0:0:{1A629F52-6682-43F8-94F3-7D20E4BEBECA}|UserManagement\\UserManagement.csproj|d:\\learning\\aplied programming\\new folder\\sims\\usermanagement\\controllers\\coursecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1A629F52-6682-43F8-94F3-7D20E4BEBECA}|UserManagement\\UserManagement.csproj|solutionrelative:usermanagement\\controllers\\coursecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1A629F52-6682-43F8-94F3-7D20E4BEBECA}|UserManagement\\UserManagement.csproj|d:\\learning\\aplied programming\\new folder\\sims\\usermanagement\\repositories\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1A629F52-6682-43F8-94F3-7D20E4BEBECA}|UserManagement\\UserManagement.csproj|solutionrelative:usermanagement\\repositories\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1A629F52-6682-43F8-94F3-7D20E4BEBECA}|UserManagement\\UserManagement.csproj|d:\\learning\\aplied programming\\new folder\\sims\\usermanagement\\repositories\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1A629F52-6682-43F8-94F3-7D20E4BEBECA}|UserManagement\\UserManagement.csproj|solutionrelative:usermanagement\\repositories\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1A629F52-6682-43F8-94F3-7D20E4BEBECA}|UserManagement\\UserManagement.csproj|d:\\learning\\aplied programming\\new folder\\sims\\usermanagement\\models\\usercourseviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1A629F52-6682-43F8-94F3-7D20E4BEBECA}|UserManagement\\UserManagement.csproj|solutionrelative:usermanagement\\models\\usercourseviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1A629F52-6682-43F8-94F3-7D20E4BEBECA}|UserManagement\\UserManagement.csproj|d:\\learning\\aplied programming\\new folder\\sims\\usermanagement\\repositories\\courserepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1A629F52-6682-43F8-94F3-7D20E4BEBECA}|UserManagement\\UserManagement.csproj|solutionrelative:usermanagement\\repositories\\courserepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1A629F52-6682-43F8-94F3-7D20E4BEBECA}|UserManagement\\UserManagement.csproj|d:\\learning\\aplied programming\\new folder\\sims\\usermanagement\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1A629F52-6682-43F8-94F3-7D20E4BEBECA}|UserManagement\\UserManagement.csproj|solutionrelative:usermanagement\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1A629F52-6682-43F8-94F3-7D20E4BEBECA}|UserManagement\\UserManagement.csproj|d:\\learning\\aplied programming\\new folder\\sims\\usermanagement\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1A629F52-6682-43F8-94F3-7D20E4BEBECA}|UserManagement\\UserManagement.csproj|solutionrelative:usermanagement\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1A629F52-6682-43F8-94F3-7D20E4BEBECA}|UserManagement\\UserManagement.csproj|d:\\learning\\aplied programming\\new folder\\sims\\usermanagement\\factories\\coursecontrollerfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1A629F52-6682-43F8-94F3-7D20E4BEBECA}|UserManagement\\UserManagement.csproj|solutionrelative:usermanagement\\factories\\coursecontrollerfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1A629F52-6682-43F8-94F3-7D20E4BEBECA}|UserManagement\\UserManagement.csproj|d:\\learning\\aplied programming\\new folder\\sims\\usermanagement\\factories\\icoursecontrollerfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1A629F52-6682-43F8-94F3-7D20E4BEBECA}|UserManagement\\UserManagement.csproj|solutionrelative:usermanagement\\factories\\icoursecontrollerfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1A629F52-6682-43F8-94F3-7D20E4BEBECA}|UserManagement\\UserManagement.csproj|d:\\learning\\aplied programming\\new folder\\sims\\usermanagement\\views\\shared\\_layout2.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1A629F52-6682-43F8-94F3-7D20E4BEBECA}|UserManagement\\UserManagement.csproj|solutionrelative:usermanagement\\views\\shared\\_layout2.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1A629F52-6682-43F8-94F3-7D20E4BEBECA}|UserManagement\\UserManagement.csproj|d:\\learning\\aplied programming\\new folder\\sims\\usermanagement\\views\\account\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1A629F52-6682-43F8-94F3-7D20E4BEBECA}|UserManagement\\UserManagement.csproj|solutionrelative:usermanagement\\views\\account\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1A629F52-6682-43F8-94F3-7D20E4BEBECA}|UserManagement\\UserManagement.csproj|d:\\learning\\aplied programming\\new folder\\sims\\usermanagement\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{1A629F52-6682-43F8-94F3-7D20E4BEBECA}|UserManagement\\UserManagement.csproj|solutionrelative:usermanagement\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1A629F52-6682-43F8-94F3-7D20E4BEBECA}|UserManagement\\UserManagement.csproj|d:\\learning\\aplied programming\\new folder\\sims\\usermanagement\\wwwroot\\css\\managecourse.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{1A629F52-6682-43F8-94F3-7D20E4BEBECA}|UserManagement\\UserManagement.csproj|solutionrelative:usermanagement\\wwwroot\\css\\managecourse.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1A629F52-6682-43F8-94F3-7D20E4BEBECA}|UserManagement\\UserManagement.csproj|d:\\learning\\aplied programming\\new folder\\sims\\usermanagement\\wwwroot\\css\\cud.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{1A629F52-6682-43F8-94F3-7D20E4BEBECA}|UserManagement\\UserManagement.csproj|solutionrelative:usermanagement\\wwwroot\\css\\cud.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1A629F52-6682-43F8-94F3-7D20E4BEBECA}|UserManagement\\UserManagement.csproj|d:\\learning\\aplied programming\\new folder\\sims\\usermanagement\\views\\account\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1A629F52-6682-43F8-94F3-7D20E4BEBECA}|UserManagement\\UserManagement.csproj|solutionrelative:usermanagement\\views\\account\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1A629F52-6682-43F8-94F3-7D20E4BEBECA}|UserManagement\\UserManagement.csproj|d:\\learning\\aplied programming\\new folder\\sims\\usermanagement\\wwwroot\\css\\register.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{1A629F52-6682-43F8-94F3-7D20E4BEBECA}|UserManagement\\UserManagement.csproj|solutionrelative:usermanagement\\wwwroot\\css\\register.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1A629F52-6682-43F8-94F3-7D20E4BEBECA}|UserManagement\\UserManagement.csproj|d:\\learning\\aplied programming\\new folder\\sims\\usermanagement\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1A629F52-6682-43F8-94F3-7D20E4BEBECA}|UserManagement\\UserManagement.csproj|solutionrelative:usermanagement\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1A629F52-6682-43F8-94F3-7D20E4BEBECA}|UserManagement\\UserManagement.csproj|d:\\learning\\aplied programming\\new folder\\sims\\usermanagement\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1A629F52-6682-43F8-94F3-7D20E4BEBECA}|UserManagement\\UserManagement.csproj|solutionrelative:usermanagement\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1A629F52-6682-43F8-94F3-7D20E4BEBECA}|UserManagement\\UserManagement.csproj|d:\\learning\\aplied programming\\new folder\\sims\\usermanagement\\views\\shared\\_layout3.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1A629F52-6682-43F8-94F3-7D20E4BEBECA}|UserManagement\\UserManagement.csproj|solutionrelative:usermanagement\\views\\shared\\_layout3.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1A629F52-6682-43F8-94F3-7D20E4BEBECA}|UserManagement\\UserManagement.csproj|d:\\learning\\aplied programming\\new folder\\sims\\usermanagement\\views\\home\\studentpage.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1A629F52-6682-43F8-94F3-7D20E4BEBECA}|UserManagement\\UserManagement.csproj|solutionrelative:usermanagement\\views\\home\\studentpage.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1A629F52-6682-43F8-94F3-7D20E4BEBECA}|UserManagement\\UserManagement.csproj|d:\\learning\\aplied programming\\new folder\\sims\\usermanagement\\views\\home\\facultypage.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1A629F52-6682-43F8-94F3-7D20E4BEBECA}|UserManagement\\UserManagement.csproj|solutionrelative:usermanagement\\views\\home\\facultypage.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1A629F52-6682-43F8-94F3-7D20E4BEBECA}|UserManagement\\UserManagement.csproj|d:\\learning\\aplied programming\\new folder\\sims\\usermanagement\\views\\home\\adminpage.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1A629F52-6682-43F8-94F3-7D20E4BEBECA}|UserManagement\\UserManagement.csproj|solutionrelative:usermanagement\\views\\home\\adminpage.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1A629F52-6682-43F8-94F3-7D20E4BEBECA}|UserManagement\\UserManagement.csproj|d:\\learning\\aplied programming\\new folder\\sims\\usermanagement\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1A629F52-6682-43F8-94F3-7D20E4BEBECA}|UserManagement\\UserManagement.csproj|solutionrelative:usermanagement\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1A629F52-6682-43F8-94F3-7D20E4BEBECA}|UserManagement\\UserManagement.csproj|d:\\learning\\aplied programming\\new folder\\sims\\usermanagement\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1A629F52-6682-43F8-94F3-7D20E4BEBECA}|UserManagement\\UserManagement.csproj|solutionrelative:usermanagement\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1A629F52-6682-43F8-94F3-7D20E4BEBECA}|UserManagement\\UserManagement.csproj|d:\\learning\\aplied programming\\new folder\\sims\\usermanagement\\models\\usercourse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1A629F52-6682-43F8-94F3-7D20E4BEBECA}|UserManagement\\UserManagement.csproj|solutionrelative:usermanagement\\models\\usercourse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1A629F52-6682-43F8-94F3-7D20E4BEBECA}|UserManagement\\UserManagement.csproj|d:\\learning\\aplied programming\\new folder\\sims\\usermanagement\\models\\course.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1A629F52-6682-43F8-94F3-7D20E4BEBECA}|UserManagement\\UserManagement.csproj|solutionrelative:usermanagement\\models\\course.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1A629F52-6682-43F8-94F3-7D20E4BEBECA}|UserManagement\\UserManagement.csproj|d:\\learning\\aplied programming\\new folder\\sims\\usermanagement\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1A629F52-6682-43F8-94F3-7D20E4BEBECA}|UserManagement\\UserManagement.csproj|solutionrelative:usermanagement\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1A629F52-6682-43F8-94F3-7D20E4BEBECA}|UserManagement\\UserManagement.csproj|d:\\learning\\aplied programming\\new folder\\sims\\usermanagement\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{1A629F52-6682-43F8-94F3-7D20E4BEBECA}|UserManagement\\UserManagement.csproj|solutionrelative:usermanagement\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1A629F52-6682-43F8-94F3-7D20E4BEBECA}|UserManagement\\UserManagement.csproj|d:\\learning\\aplied programming\\new folder\\sims\\usermanagement\\repositories\\icourserepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1A629F52-6682-43F8-94F3-7D20E4BEBECA}|UserManagement\\UserManagement.csproj|solutionrelative:usermanagement\\repositories\\icourserepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1A629F52-6682-43F8-94F3-7D20E4BEBECA}|UserManagement\\UserManagement.csproj|d:\\learning\\aplied programming\\new folder\\sims\\usermanagement\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{1A629F52-6682-43F8-94F3-7D20E4BEBECA}|UserManagement\\UserManagement.csproj|solutionrelative:usermanagement\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1A629F52-6682-43F8-94F3-7D20E4BEBECA}|UserManagement\\UserManagement.csproj|d:\\learning\\aplied programming\\sims\\usermanagement\\.gitignore||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "AbsoluteMoniker": "D:0:0:{1A629F52-6682-43F8-94F3-7D20E4BEBECA}|UserManagement\\UserManagement.csproj|d:\\learning\\aplied programming\\new folder\\sims\\usermanagement\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1A629F52-6682-43F8-94F3-7D20E4BEBECA}|UserManagement\\UserManagement.csproj|solutionrelative:usermanagement\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1A629F52-6682-43F8-94F3-7D20E4BEBECA}|UserManagement\\UserManagement.csproj|d:\\learning\\aplied programming\\new folder\\sims\\usermanagement\\views\\shared\\_validationscriptspartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1A629F52-6682-43F8-94F3-7D20E4BEBECA}|UserManagement\\UserManagement.csproj|solutionrelative:usermanagement\\views\\shared\\_validationscriptspartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1A629F52-6682-43F8-94F3-7D20E4BEBECA}|UserManagement\\UserManagement.csproj|d:\\learning\\aplied programming\\new folder\\sims\\usermanagement\\views\\shared\\error.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1A629F52-6682-43F8-94F3-7D20E4BEBECA}|UserManagement\\UserManagement.csproj|solutionrelative:usermanagement\\views\\shared\\error.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1A629F52-6682-43F8-94F3-7D20E4BEBECA}|UserManagement\\UserManagement.csproj|d:\\learning\\aplied programming\\new folder\\sims\\usermanagement\\models\\role.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1A629F52-6682-43F8-94F3-7D20E4BEBECA}|UserManagement\\UserManagement.csproj|solutionrelative:usermanagement\\models\\role.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1A629F52-6682-43F8-94F3-7D20E4BEBECA}|UserManagement\\UserManagement.csproj|d:\\learning\\aplied programming\\new folder\\sims\\usermanagement\\middleware\\authmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1A629F52-6682-43F8-94F3-7D20E4BEBECA}|UserManagement\\UserManagement.csproj|solutionrelative:usermanagement\\middleware\\authmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1A629F52-6682-43F8-94F3-7D20E4BEBECA}|UserManagement\\UserManagement.csproj|d:\\learning\\aplied programming\\new folder\\sims\\usermanagement\\migrations\\20250330040342_buikd.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1A629F52-6682-43F8-94F3-7D20E4BEBECA}|UserManagement\\UserManagement.csproj|solutionrelative:usermanagement\\migrations\\20250330040342_buikd.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1A629F52-6682-43F8-94F3-7D20E4BEBECA}|UserManagement\\UserManagement.csproj|d:\\learning\\aplied programming\\new folder\\sims\\usermanagement\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1A629F52-6682-43F8-94F3-7D20E4BEBECA}|UserManagement\\UserManagement.csproj|solutionrelative:usermanagement\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1A629F52-6682-43F8-94F3-7D20E4BEBECA}|UserManagement\\UserManagement.csproj|d:\\learning\\aplied programming\\new folder\\sims\\usermanagement\\usermanagement.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{1A629F52-6682-43F8-94F3-7D20E4BEBECA}|UserManagement\\UserManagement.csproj|solutionrelative:usermanagement\\usermanagement.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1A629F52-6682-43F8-94F3-7D20E4BEBECA}|UserManagement\\UserManagement.csproj|d:\\learning\\aplied programming\\new folder\\sims\\usermanagement\\.gitignore||{3B902123-F8A7-4915-9F01-361F908088D0}",
       "RelativeMoniker": "D:0:0:{1A629F52-6682-43F8-94F3-7D20E4BEBECA}|UserManagement\\UserManagement.csproj|solutionrelative:usermanagement\\.gitignore||{3B902123-F8A7-4915-9F01-361F908088D0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1A629F52-6682-43F8-94F3-7D20E4BEBECA}|UserManagement\\UserManagement.csproj|d:\\learning\\aplied programming\\sims\\usermanagement\\migrations\\20250323164049_bubble.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{1A629F52-6682-43F8-94F3-7D20E4BEBECA}|UserManagement\\UserManagement.csproj|d:\\learning\\aplied programming\\new folder\\sims\\usermanagement\\migrations\\20250323164049_bubble.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{1A629F52-6682-43F8-94F3-7D20E4BEBECA}|UserManagement\\UserManagement.csproj|solutionrelative:usermanagement\\migrations\\20250323164049_bubble.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Learning\\Aplied programming\\SIMS\\UserManagement\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     }
   ],
   "DocumentGroupContainers": [
@@ -174,7 +237,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 7,
           "Children": [
             {
               "$type": "Bookmark",
@@ -186,299 +249,299 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "AssignCourse.cshtml",
+              "DocumentMoniker": "D:\\Learning\\Aplied programming\\New folder\\SIMS\\UserManagement\\Views\\Course\\AssignCourse.cshtml",
+              "RelativeDocumentMoniker": "UserManagement\\Views\\Course\\AssignCourse.cshtml",
+              "ToolTip": "D:\\Learning\\Aplied programming\\New folder\\SIMS\\UserManagement\\Views\\Course\\AssignCourse.cshtml",
+              "RelativeToolTip": "UserManagement\\Views\\Course\\AssignCourse.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-03T16:09:33.525Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "CourseView.css",
+              "DocumentMoniker": "D:\\Learning\\Aplied programming\\New folder\\SIMS\\UserManagement\\wwwroot\\css\\CourseView.css",
+              "RelativeDocumentMoniker": "UserManagement\\wwwroot\\css\\CourseView.css",
+              "ToolTip": "D:\\Learning\\Aplied programming\\New folder\\SIMS\\UserManagement\\wwwroot\\css\\CourseView.css",
+              "RelativeToolTip": "UserManagement\\wwwroot\\css\\CourseView.css",
+              "ViewState": "AgIAABIAAAAAAAAAAAAAACUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-04-03T17:25:00.407Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 8,
-              "Title": "FacultyPage.cshtml",
-              "DocumentMoniker": "D:\\Learning\\Aplied programming\\SIMS\\UserManagement\\Views\\Home\\FacultyPage.cshtml",
-              "RelativeDocumentMoniker": "UserManagement\\Views\\Home\\FacultyPage.cshtml",
-              "ToolTip": "D:\\Learning\\Aplied programming\\SIMS\\UserManagement\\Views\\Home\\FacultyPage.cshtml",
-              "RelativeToolTip": "UserManagement\\Views\\Home\\FacultyPage.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAHAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-03-28T13:51:13.002Z",
+              "Title": "ViewAccount.css",
+              "DocumentMoniker": "D:\\Learning\\Aplied programming\\New folder\\SIMS\\UserManagement\\wwwroot\\css\\ViewAccount.css",
+              "RelativeDocumentMoniker": "UserManagement\\wwwroot\\css\\ViewAccount.css",
+              "ToolTip": "D:\\Learning\\Aplied programming\\New folder\\SIMS\\UserManagement\\wwwroot\\css\\ViewAccount.css",
+              "RelativeToolTip": "UserManagement\\wwwroot\\css\\ViewAccount.css",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABgAAAADAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-04-03T16:31:21.293Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "Create.cshtml",
-              "DocumentMoniker": "D:\\Learning\\Aplied programming\\SIMS\\UserManagement\\Views\\Course\\Create.cshtml",
-              "RelativeDocumentMoniker": "UserManagement\\Views\\Course\\Create.cshtml",
-              "ToolTip": "D:\\Learning\\Aplied programming\\SIMS\\UserManagement\\Views\\Course\\Create.cshtml",
-              "RelativeToolTip": "UserManagement\\Views\\Course\\Create.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAA/AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-03-23T15:03:39.551Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 6,
               "Title": "Register.cshtml",
-              "DocumentMoniker": "D:\\Learning\\Aplied programming\\SIMS\\UserManagement\\Views\\Account\\Register.cshtml",
+              "DocumentMoniker": "D:\\Learning\\Aplied programming\\New folder\\SIMS\\UserManagement\\Views\\Account\\Register.cshtml",
               "RelativeDocumentMoniker": "UserManagement\\Views\\Account\\Register.cshtml",
-              "ToolTip": "D:\\Learning\\Aplied programming\\SIMS\\UserManagement\\Views\\Account\\Register.cshtml",
+              "ToolTip": "D:\\Learning\\Aplied programming\\New folder\\SIMS\\UserManagement\\Views\\Account\\Register.cshtml",
               "RelativeToolTip": "UserManagement\\Views\\Account\\Register.cshtml",
-              "ViewState": "AgIAADwAAAAAAAAAAAAAAE4AAAALAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-03-23T14:48:36.021Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "Delete.cshtml",
-              "DocumentMoniker": "D:\\Learning\\Aplied programming\\SIMS\\UserManagement\\Views\\Account\\Delete.cshtml",
-              "RelativeDocumentMoniker": "UserManagement\\Views\\Account\\Delete.cshtml",
-              "ToolTip": "D:\\Learning\\Aplied programming\\SIMS\\UserManagement\\Views\\Account\\Delete.cshtml",
-              "RelativeToolTip": "UserManagement\\Views\\Account\\Delete.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAABYAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-03-25T08:27:50.17Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "_Layout1.cshtml",
-              "DocumentMoniker": "D:\\Learning\\Aplied programming\\SIMS\\UserManagement\\Views\\Shared\\_Layout1.cshtml",
-              "RelativeDocumentMoniker": "UserManagement\\Views\\Shared\\_Layout1.cshtml",
-              "ToolTip": "D:\\Learning\\Aplied programming\\SIMS\\UserManagement\\Views\\Shared\\_Layout1.cshtml",
-              "RelativeToolTip": "UserManagement\\Views\\Shared\\_Layout1.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAABaAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-03-23T14:48:38.247Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "_Layout3.cshtml",
-              "DocumentMoniker": "D:\\Learning\\Aplied programming\\SIMS\\UserManagement\\Views\\Shared\\_Layout3.cshtml",
-              "RelativeDocumentMoniker": "UserManagement\\Views\\Shared\\_Layout3.cshtml",
-              "ToolTip": "D:\\Learning\\Aplied programming\\SIMS\\UserManagement\\Views\\Shared\\_Layout3.cshtml",
-              "RelativeToolTip": "UserManagement\\Views\\Shared\\_Layout3.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAD4AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-03-30T09:27:51.216Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Error.cshtml",
-              "DocumentMoniker": "D:\\Learning\\Aplied programming\\SIMS\\UserManagement\\Views\\Shared\\Error.cshtml",
-              "RelativeDocumentMoniker": "UserManagement\\Views\\Shared\\Error.cshtml",
-              "ToolTip": "D:\\Learning\\Aplied programming\\SIMS\\UserManagement\\Views\\Shared\\Error.cshtml",
-              "RelativeToolTip": "UserManagement\\Views\\Shared\\Error.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-03-23T14:48:37.197Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "_ValidationScriptsPartial.cshtml",
-              "DocumentMoniker": "D:\\Learning\\Aplied programming\\SIMS\\UserManagement\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
-              "RelativeDocumentMoniker": "UserManagement\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
-              "ToolTip": "D:\\Learning\\Aplied programming\\SIMS\\UserManagement\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
-              "RelativeToolTip": "UserManagement\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-03-23T14:48:37.656Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 5,
               "Title": "ViewAccount.cshtml",
-              "DocumentMoniker": "D:\\Learning\\Aplied programming\\SIMS\\UserManagement\\Views\\Account\\ViewAccount.cshtml",
+              "DocumentMoniker": "D:\\Learning\\Aplied programming\\New folder\\SIMS\\UserManagement\\Views\\Account\\ViewAccount.cshtml",
               "RelativeDocumentMoniker": "UserManagement\\Views\\Account\\ViewAccount.cshtml",
-              "ToolTip": "D:\\Learning\\Aplied programming\\SIMS\\UserManagement\\Views\\Account\\ViewAccount.cshtml",
+              "ToolTip": "D:\\Learning\\Aplied programming\\New folder\\SIMS\\UserManagement\\Views\\Account\\ViewAccount.cshtml",
               "RelativeToolTip": "UserManagement\\Views\\Account\\ViewAccount.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAADAAAAAAAAAA==",
+              "ViewState": "AgIAACoAAAAAAAAAAAAAADAAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-03-25T08:27:07.803Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "AdminPage.cshtml",
-              "DocumentMoniker": "D:\\Learning\\Aplied programming\\SIMS\\UserManagement\\Views\\Home\\AdminPage.cshtml",
-              "RelativeDocumentMoniker": "UserManagement\\Views\\Home\\AdminPage.cshtml",
-              "ToolTip": "D:\\Learning\\Aplied programming\\SIMS\\UserManagement\\Views\\Home\\AdminPage.cshtml",
-              "RelativeToolTip": "UserManagement\\Views\\Home\\AdminPage.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAFAAAAAAAAAA==",
+              "DocumentIndex": 0,
+              "Title": "Login.cshtml",
+              "DocumentMoniker": "D:\\Learning\\Aplied programming\\New folder\\SIMS\\UserManagement\\Views\\User\\Login.cshtml",
+              "RelativeDocumentMoniker": "UserManagement\\Views\\User\\Login.cshtml",
+              "ToolTip": "D:\\Learning\\Aplied programming\\New folder\\SIMS\\UserManagement\\Views\\User\\Login.cshtml",
+              "RelativeToolTip": "UserManagement\\Views\\User\\Login.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-03-24T17:08:34.875Z",
+              "WhenOpened": "2025-03-23T14:48:36.616Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "_Layout2.cshtml",
-              "DocumentMoniker": "D:\\Learning\\Aplied programming\\SIMS\\UserManagement\\Views\\Shared\\_Layout2.cshtml",
-              "RelativeDocumentMoniker": "UserManagement\\Views\\Shared\\_Layout2.cshtml",
-              "ToolTip": "D:\\Learning\\Aplied programming\\SIMS\\UserManagement\\Views\\Shared\\_Layout2.cshtml",
-              "RelativeToolTip": "UserManagement\\Views\\Shared\\_Layout2.cshtml",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAACAAAAB/AAAAAAAAAA==",
+              "DocumentIndex": 2,
+              "Title": "_Layout1.cshtml",
+              "DocumentMoniker": "D:\\Learning\\Aplied programming\\New folder\\SIMS\\UserManagement\\Views\\Shared\\_Layout1.cshtml",
+              "RelativeDocumentMoniker": "UserManagement\\Views\\Shared\\_Layout1.cshtml",
+              "ToolTip": "D:\\Learning\\Aplied programming\\New folder\\SIMS\\UserManagement\\Views\\Shared\\_Layout1.cshtml",
+              "RelativeToolTip": "UserManagement\\Views\\Shared\\_Layout1.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAACAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-03-30T09:27:36.263Z",
+              "WhenOpened": "2025-03-23T14:48:38.247Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 1,
               "Title": "CourseView.cshtml",
-              "DocumentMoniker": "D:\\Learning\\Aplied programming\\SIMS\\UserManagement\\Views\\Course\\CourseView.cshtml",
+              "DocumentMoniker": "D:\\Learning\\Aplied programming\\New folder\\SIMS\\UserManagement\\Views\\Course\\CourseView.cshtml",
               "RelativeDocumentMoniker": "UserManagement\\Views\\Course\\CourseView.cshtml",
-              "ToolTip": "D:\\Learning\\Aplied programming\\SIMS\\UserManagement\\Views\\Course\\CourseView.cshtml",
+              "ToolTip": "D:\\Learning\\Aplied programming\\New folder\\SIMS\\UserManagement\\Views\\Course\\CourseView.cshtml",
               "RelativeToolTip": "UserManagement\\Views\\Course\\CourseView.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAdAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-03-24T15:19:28.367Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 3,
+              "Title": "Login.css",
+              "DocumentMoniker": "D:\\Learning\\Aplied programming\\New folder\\SIMS\\UserManagement\\wwwroot\\css\\Login.css",
+              "RelativeDocumentMoniker": "UserManagement\\wwwroot\\css\\Login.css",
+              "ToolTip": "D:\\Learning\\Aplied programming\\New folder\\SIMS\\UserManagement\\wwwroot\\css\\Login.css",
+              "RelativeToolTip": "UserManagement\\wwwroot\\css\\Login.css",
+              "ViewState": "AgIAABIAAAAAAAAAAAAQwDAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-04-03T17:29:28.058Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "UserCourseList.css",
+              "DocumentMoniker": "D:\\Learning\\Aplied programming\\New folder\\SIMS\\UserManagement\\wwwroot\\css\\UserCourseList.css",
+              "RelativeDocumentMoniker": "UserManagement\\wwwroot\\css\\UserCourseList.css",
+              "ToolTip": "D:\\Learning\\Aplied programming\\New folder\\SIMS\\UserManagement\\wwwroot\\css\\UserCourseList.css",
+              "RelativeToolTip": "UserManagement\\wwwroot\\css\\UserCourseList.css",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-04-03T16:35:49.94Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "D:\\Learning\\Aplied programming\\New folder\\SIMS\\UserManagement\\Views\\Course\\Create.cshtml",
+              "RelativeDocumentMoniker": "UserManagement\\Views\\Course\\Create.cshtml",
+              "ToolTip": "D:\\Learning\\Aplied programming\\New folder\\SIMS\\UserManagement\\Views\\Course\\Create.cshtml",
+              "RelativeToolTip": "UserManagement\\Views\\Course\\Create.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-23T15:03:39.551Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
               "Title": "Delete.cshtml",
-              "DocumentMoniker": "D:\\Learning\\Aplied programming\\SIMS\\UserManagement\\Views\\Course\\Delete.cshtml",
+              "DocumentMoniker": "D:\\Learning\\Aplied programming\\New folder\\SIMS\\UserManagement\\Views\\Course\\Delete.cshtml",
               "RelativeDocumentMoniker": "UserManagement\\Views\\Course\\Delete.cshtml",
-              "ToolTip": "D:\\Learning\\Aplied programming\\SIMS\\UserManagement\\Views\\Course\\Delete.cshtml",
+              "ToolTip": "D:\\Learning\\Aplied programming\\New folder\\SIMS\\UserManagement\\Views\\Course\\Delete.cshtml",
               "RelativeToolTip": "UserManagement\\Views\\Course\\Delete.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAjAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAYAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-03-23T15:04:09.858Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
-              "Title": "HomeController.cs",
-              "DocumentMoniker": "D:\\Learning\\Aplied programming\\SIMS\\UserManagement\\Controllers\\HomeController.cs",
-              "RelativeDocumentMoniker": "UserManagement\\Controllers\\HomeController.cs",
-              "ToolTip": "D:\\Learning\\Aplied programming\\SIMS\\UserManagement\\Controllers\\HomeController.cs",
-              "RelativeToolTip": "UserManagement\\Controllers\\HomeController.cs",
-              "ViewState": "AgIAABoAAAAAAAAAAAA9wCMAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-23T14:48:22.458Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "index.cshtml",
-              "DocumentMoniker": "D:\\Learning\\Aplied programming\\SIMS\\UserManagement\\Views\\Course\\index.cshtml",
-              "RelativeDocumentMoniker": "UserManagement\\Views\\Course\\index.cshtml",
-              "ToolTip": "D:\\Learning\\Aplied programming\\SIMS\\UserManagement\\Views\\Course\\index.cshtml",
-              "RelativeToolTip": "UserManagement\\Views\\Course\\index.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAABAAAAAAAAAA==",
+              "DocumentIndex": 12,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "D:\\Learning\\Aplied programming\\New folder\\SIMS\\UserManagement\\Views\\Course\\Edit.cshtml",
+              "RelativeDocumentMoniker": "UserManagement\\Views\\Course\\Edit.cshtml",
+              "ToolTip": "D:\\Learning\\Aplied programming\\New folder\\SIMS\\UserManagement\\Views\\Course\\Edit.cshtml",
+              "RelativeToolTip": "UserManagement\\Views\\Course\\Edit.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-03-23T14:47:14.013Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "User.cs",
-              "DocumentMoniker": "D:\\Learning\\Aplied programming\\SIMS\\UserManagement\\Models\\User.cs",
-              "RelativeDocumentMoniker": "UserManagement\\Models\\User.cs",
-              "ToolTip": "D:\\Learning\\Aplied programming\\SIMS\\UserManagement\\Models\\User.cs",
-              "RelativeToolTip": "UserManagement\\Models\\User.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAQwBIAAAAUAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-23T15:08:25.577Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "Role.cs",
-              "DocumentMoniker": "D:\\Learning\\Aplied programming\\SIMS\\UserManagement\\Models\\Role.cs",
-              "RelativeDocumentMoniker": "UserManagement\\Models\\Role.cs",
-              "ToolTip": "D:\\Learning\\Aplied programming\\SIMS\\UserManagement\\Models\\Role.cs",
-              "RelativeToolTip": "UserManagement\\Models\\Role.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-23T15:08:23.834Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "ErrorViewModel.cs",
-              "DocumentMoniker": "D:\\Learning\\Aplied programming\\SIMS\\UserManagement\\Models\\ErrorViewModel.cs",
-              "RelativeDocumentMoniker": "UserManagement\\Models\\ErrorViewModel.cs",
-              "ToolTip": "D:\\Learning\\Aplied programming\\SIMS\\UserManagement\\Models\\ErrorViewModel.cs",
-              "RelativeToolTip": "UserManagement\\Models\\ErrorViewModel.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-23T15:08:23.009Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 18,
-              "Title": "Course.cs",
-              "DocumentMoniker": "D:\\Learning\\Aplied programming\\SIMS\\UserManagement\\Models\\Course.cs",
-              "RelativeDocumentMoniker": "UserManagement\\Models\\Course.cs",
-              "ToolTip": "D:\\Learning\\Aplied programming\\SIMS\\UserManagement\\Models\\Course.cs",
-              "RelativeToolTip": "UserManagement\\Models\\Course.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAvAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-23T14:59:08.249Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 19,
-              "Title": "AuthMiddleware.cs",
-              "DocumentMoniker": "D:\\Learning\\Aplied programming\\SIMS\\UserManagement\\Middleware\\AuthMiddleware.cs",
-              "RelativeDocumentMoniker": "UserManagement\\Middleware\\AuthMiddleware.cs",
-              "ToolTip": "D:\\Learning\\Aplied programming\\SIMS\\UserManagement\\Middleware\\AuthMiddleware.cs",
-              "RelativeToolTip": "UserManagement\\Middleware\\AuthMiddleware.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAABkAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-23T15:08:18.703Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 20,
-              "Title": "AppDbContext.cs",
-              "DocumentMoniker": "D:\\Learning\\Aplied programming\\SIMS\\UserManagement\\Data\\AppDbContext.cs",
-              "RelativeDocumentMoniker": "UserManagement\\Data\\AppDbContext.cs",
-              "ToolTip": "D:\\Learning\\Aplied programming\\SIMS\\UserManagement\\Data\\AppDbContext.cs",
-              "RelativeToolTip": "UserManagement\\Data\\AppDbContext.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-23T14:49:47.562Z",
+              "WhenOpened": "2025-03-23T15:03:53.8Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 14,
+              "Title": "UserCourseList.cshtml",
+              "DocumentMoniker": "D:\\Learning\\Aplied programming\\New folder\\SIMS\\UserManagement\\Views\\Course\\UserCourseList.cshtml",
+              "RelativeDocumentMoniker": "UserManagement\\Views\\Course\\UserCourseList.cshtml",
+              "ToolTip": "D:\\Learning\\Aplied programming\\New folder\\SIMS\\UserManagement\\Views\\Course\\UserCourseList.cshtml",
+              "RelativeToolTip": "UserManagement\\Views\\Course\\UserCourseList.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-03T15:46:44.847Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "ManageCourse.cshtml",
+              "DocumentMoniker": "D:\\Learning\\Aplied programming\\New folder\\SIMS\\UserManagement\\Views\\Course\\ManageCourse.cshtml",
+              "RelativeDocumentMoniker": "UserManagement\\Views\\Course\\ManageCourse.cshtml",
+              "ToolTip": "D:\\Learning\\Aplied programming\\New folder\\SIMS\\UserManagement\\Views\\Course\\ManageCourse.cshtml",
+              "RelativeToolTip": "UserManagement\\Views\\Course\\ManageCourse.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-03T15:46:47.473Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "D:\\Learning\\Aplied programming\\New folder\\SIMS\\UserManagement\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "UserManagement\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "D:\\Learning\\Aplied programming\\New folder\\SIMS\\UserManagement\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "UserManagement\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-03T16:29:12.171Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "AccountController.cs",
+              "DocumentMoniker": "D:\\Learning\\Aplied programming\\New folder\\SIMS\\UserManagement\\Controllers\\AccountController.cs",
+              "RelativeDocumentMoniker": "UserManagement\\Controllers\\AccountController.cs",
+              "ToolTip": "D:\\Learning\\Aplied programming\\New folder\\SIMS\\UserManagement\\Controllers\\AccountController.cs",
+              "RelativeToolTip": "UserManagement\\Controllers\\AccountController.cs",
+              "ViewState": "AgIAAHcAAAAAAAAAAAAAwGAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-25T08:20:08.013Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
               "Title": "CourseController.cs",
-              "DocumentMoniker": "D:\\Learning\\Aplied programming\\SIMS\\UserManagement\\Controllers\\CourseController.cs",
+              "DocumentMoniker": "D:\\Learning\\Aplied programming\\New folder\\SIMS\\UserManagement\\Controllers\\CourseController.cs",
               "RelativeDocumentMoniker": "UserManagement\\Controllers\\CourseController.cs",
-              "ToolTip": "D:\\Learning\\Aplied programming\\SIMS\\UserManagement\\Controllers\\CourseController.cs",
+              "ToolTip": "D:\\Learning\\Aplied programming\\New folder\\SIMS\\UserManagement\\Controllers\\CourseController.cs",
               "RelativeToolTip": "UserManagement\\Controllers\\CourseController.cs",
-              "ViewState": "AgIAAEcAAAAAAAAAAAAuwF0AAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAAIsAAAAAAAAAAAAswJYAAAAqAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-23T15:00:52.921Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 18,
+              "Title": "UserRepository.cs",
+              "DocumentMoniker": "D:\\Learning\\Aplied programming\\New folder\\SIMS\\UserManagement\\Repositories\\UserRepository.cs",
+              "RelativeDocumentMoniker": "UserManagement\\Repositories\\UserRepository.cs",
+              "ToolTip": "D:\\Learning\\Aplied programming\\New folder\\SIMS\\UserManagement\\Repositories\\UserRepository.cs",
+              "RelativeToolTip": "UserManagement\\Repositories\\UserRepository.cs",
+              "ViewState": "AgIAAIQAAAAAAAAAAAAcwJMAAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-24T14:54:00.964Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "IUserRepository.cs",
+              "DocumentMoniker": "D:\\Learning\\Aplied programming\\New folder\\SIMS\\UserManagement\\Repositories\\IUserRepository.cs",
+              "RelativeDocumentMoniker": "UserManagement\\Repositories\\IUserRepository.cs",
+              "ToolTip": "D:\\Learning\\Aplied programming\\New folder\\SIMS\\UserManagement\\Repositories\\IUserRepository.cs",
+              "RelativeToolTip": "UserManagement\\Repositories\\IUserRepository.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAqwBEAAABMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-23T15:00:19.943Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "UserCourseViewModel.cs",
+              "DocumentMoniker": "D:\\Learning\\Aplied programming\\New folder\\SIMS\\UserManagement\\Models\\UserCourseViewModel.cs",
+              "RelativeDocumentMoniker": "UserManagement\\Models\\UserCourseViewModel.cs",
+              "ToolTip": "D:\\Learning\\Aplied programming\\New folder\\SIMS\\UserManagement\\Models\\UserCourseViewModel.cs",
+              "RelativeToolTip": "UserManagement\\Models\\UserCourseViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-03T15:44:04.803Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "CourseRepository.cs",
+              "DocumentMoniker": "D:\\Learning\\Aplied programming\\New folder\\SIMS\\UserManagement\\Repositories\\CourseRepository.cs",
+              "RelativeDocumentMoniker": "UserManagement\\Repositories\\CourseRepository.cs",
+              "ToolTip": "D:\\Learning\\Aplied programming\\New folder\\SIMS\\UserManagement\\Repositories\\CourseRepository.cs",
+              "RelativeToolTip": "UserManagement\\Repositories\\CourseRepository.cs",
+              "ViewState": "AgIAABoAAAAAAAAAAAAIwEcAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-23T14:59:34.932Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
               "Title": "UserController.cs",
-              "DocumentMoniker": "D:\\Learning\\Aplied programming\\SIMS\\UserManagement\\Controllers\\UserController.cs",
+              "DocumentMoniker": "D:\\Learning\\Aplied programming\\New folder\\SIMS\\UserManagement\\Controllers\\UserController.cs",
               "RelativeDocumentMoniker": "UserManagement\\Controllers\\UserController.cs",
-              "ToolTip": "D:\\Learning\\Aplied programming\\SIMS\\UserManagement\\Controllers\\UserController.cs",
+              "ToolTip": "D:\\Learning\\Aplied programming\\New folder\\SIMS\\UserManagement\\Controllers\\UserController.cs",
               "RelativeToolTip": "UserManagement\\Controllers\\UserController.cs",
-              "ViewState": "AgIAABcAAAAAAAAAAAA9wCsAAAAwAAAAAAAAAA==",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAqwCsAAAAfAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-20T18:49:09.556Z",
               "EditorCaption": ""
@@ -486,49 +549,140 @@
             {
               "$type": "Document",
               "DocumentIndex": 23,
-              "Title": "AccountController.cs",
-              "DocumentMoniker": "D:\\Learning\\Aplied programming\\SIMS\\UserManagement\\Controllers\\AccountController.cs",
-              "RelativeDocumentMoniker": "UserManagement\\Controllers\\AccountController.cs",
-              "ToolTip": "D:\\Learning\\Aplied programming\\SIMS\\UserManagement\\Controllers\\AccountController.cs",
-              "RelativeToolTip": "UserManagement\\Controllers\\AccountController.cs",
-              "ViewState": "AgIAAEsAAAAAAAAAAAAmwGAAAAANAAAAAAAAAA==",
+              "Title": "CourseControllerFactory.cs",
+              "DocumentMoniker": "D:\\Learning\\Aplied programming\\New folder\\SIMS\\UserManagement\\Factories\\CourseControllerFactory.cs",
+              "RelativeDocumentMoniker": "UserManagement\\Factories\\CourseControllerFactory.cs",
+              "ToolTip": "D:\\Learning\\Aplied programming\\New folder\\SIMS\\UserManagement\\Factories\\CourseControllerFactory.cs",
+              "RelativeToolTip": "UserManagement\\Factories\\CourseControllerFactory.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-25T08:20:08.013Z",
+              "WhenOpened": "2025-04-02T21:09:12.358Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 24,
-              "Title": "Login.cshtml",
-              "DocumentMoniker": "D:\\Learning\\Aplied programming\\SIMS\\UserManagement\\Views\\User\\Login.cshtml",
-              "RelativeDocumentMoniker": "UserManagement\\Views\\User\\Login.cshtml",
-              "ToolTip": "D:\\Learning\\Aplied programming\\SIMS\\UserManagement\\Views\\User\\Login.cshtml",
-              "RelativeToolTip": "UserManagement\\Views\\User\\Login.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-03-23T14:48:36.616Z",
+              "Title": "ICourseControllerFactory.cs",
+              "DocumentMoniker": "D:\\Learning\\Aplied programming\\New folder\\SIMS\\UserManagement\\Factories\\ICourseControllerFactory.cs",
+              "RelativeDocumentMoniker": "UserManagement\\Factories\\ICourseControllerFactory.cs",
+              "ToolTip": "D:\\Learning\\Aplied programming\\New folder\\SIMS\\UserManagement\\Factories\\ICourseControllerFactory.cs",
+              "RelativeToolTip": "UserManagement\\Factories\\ICourseControllerFactory.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-02T21:09:11.033Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 25,
+              "Title": "_Layout2.cshtml",
+              "DocumentMoniker": "D:\\Learning\\Aplied programming\\New folder\\SIMS\\UserManagement\\Views\\Shared\\_Layout2.cshtml",
+              "RelativeDocumentMoniker": "UserManagement\\Views\\Shared\\_Layout2.cshtml",
+              "ToolTip": "D:\\Learning\\Aplied programming\\New folder\\SIMS\\UserManagement\\Views\\Shared\\_Layout2.cshtml",
+              "RelativeToolTip": "UserManagement\\Views\\Shared\\_Layout2.cshtml",
+              "ViewState": "AgIAACEAAAAAAAAAAAAAACAAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-30T09:27:36.263Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "CUD.css",
+              "DocumentMoniker": "D:\\Learning\\Aplied programming\\New folder\\SIMS\\UserManagement\\wwwroot\\css\\CUD.css",
+              "RelativeDocumentMoniker": "UserManagement\\wwwroot\\css\\CUD.css",
+              "ToolTip": "D:\\Learning\\Aplied programming\\New folder\\SIMS\\UserManagement\\wwwroot\\css\\CUD.css",
+              "RelativeToolTip": "UserManagement\\wwwroot\\css\\CUD.css",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-04-03T16:22:40.865Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "site.css",
+              "DocumentMoniker": "D:\\Learning\\Aplied programming\\New folder\\SIMS\\UserManagement\\wwwroot\\css\\site.css",
+              "RelativeDocumentMoniker": "UserManagement\\wwwroot\\css\\site.css",
+              "ToolTip": "D:\\Learning\\Aplied programming\\New folder\\SIMS\\UserManagement\\wwwroot\\css\\site.css",
+              "RelativeToolTip": "UserManagement\\wwwroot\\css\\site.css",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-04-03T16:25:54.611Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "D:\\Learning\\Aplied programming\\New folder\\SIMS\\UserManagement\\Views\\Account\\Edit.cshtml",
+              "RelativeDocumentMoniker": "UserManagement\\Views\\Account\\Edit.cshtml",
+              "ToolTip": "D:\\Learning\\Aplied programming\\New folder\\SIMS\\UserManagement\\Views\\Account\\Edit.cshtml",
+              "RelativeToolTip": "UserManagement\\Views\\Account\\Edit.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-03T16:32:39.289Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "ManageCourse.css",
+              "DocumentMoniker": "D:\\Learning\\Aplied programming\\New folder\\SIMS\\UserManagement\\wwwroot\\css\\ManageCourse.css",
+              "RelativeDocumentMoniker": "UserManagement\\wwwroot\\css\\ManageCourse.css",
+              "ToolTip": "D:\\Learning\\Aplied programming\\New folder\\SIMS\\UserManagement\\wwwroot\\css\\ManageCourse.css",
+              "RelativeToolTip": "UserManagement\\wwwroot\\css\\ManageCourse.css",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-04-03T16:28:20.641Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "D:\\Learning\\Aplied programming\\New folder\\SIMS\\UserManagement\\Views\\Account\\Delete.cshtml",
+              "RelativeDocumentMoniker": "UserManagement\\Views\\Account\\Delete.cshtml",
+              "ToolTip": "D:\\Learning\\Aplied programming\\New folder\\SIMS\\UserManagement\\Views\\Account\\Delete.cshtml",
+              "RelativeToolTip": "UserManagement\\Views\\Account\\Delete.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-25T08:27:50.17Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "Register.css",
+              "DocumentMoniker": "D:\\Learning\\Aplied programming\\New folder\\SIMS\\UserManagement\\wwwroot\\css\\Register.css",
+              "RelativeDocumentMoniker": "UserManagement\\wwwroot\\css\\Register.css",
+              "ToolTip": "D:\\Learning\\Aplied programming\\New folder\\SIMS\\UserManagement\\wwwroot\\css\\Register.css",
+              "RelativeToolTip": "UserManagement\\wwwroot\\css\\Register.css",
+              "ViewState": "AgIAABAAAAAAAAAAAAAswDUAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-04-03T16:30:09.26Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
               "Title": "_ViewStart.cshtml",
-              "DocumentMoniker": "D:\\Learning\\Aplied programming\\SIMS\\UserManagement\\Views\\_ViewStart.cshtml",
+              "DocumentMoniker": "D:\\Learning\\Aplied programming\\New folder\\SIMS\\UserManagement\\Views\\_ViewStart.cshtml",
               "RelativeDocumentMoniker": "UserManagement\\Views\\_ViewStart.cshtml",
-              "ToolTip": "D:\\Learning\\Aplied programming\\SIMS\\UserManagement\\Views\\_ViewStart.cshtml",
+              "ToolTip": "D:\\Learning\\Aplied programming\\New folder\\SIMS\\UserManagement\\Views\\_ViewStart.cshtml",
               "RelativeToolTip": "UserManagement\\Views\\_ViewStart.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAWAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-03-23T14:48:35.479Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 26,
+              "DocumentIndex": 33,
               "Title": "_ViewImports.cshtml",
-              "DocumentMoniker": "D:\\Learning\\Aplied programming\\SIMS\\UserManagement\\Views\\_ViewImports.cshtml",
+              "DocumentMoniker": "D:\\Learning\\Aplied programming\\New folder\\SIMS\\UserManagement\\Views\\_ViewImports.cshtml",
               "RelativeDocumentMoniker": "UserManagement\\Views\\_ViewImports.cshtml",
-              "ToolTip": "D:\\Learning\\Aplied programming\\SIMS\\UserManagement\\Views\\_ViewImports.cshtml",
+              "ToolTip": "D:\\Learning\\Aplied programming\\New folder\\SIMS\\UserManagement\\Views\\_ViewImports.cshtml",
               "RelativeToolTip": "UserManagement\\Views\\_ViewImports.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
@@ -537,157 +691,148 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 27,
-              "Title": "CourseRepository.cs",
-              "DocumentMoniker": "D:\\Learning\\Aplied programming\\SIMS\\UserManagement\\Repositories\\CourseRepository.cs",
-              "RelativeDocumentMoniker": "UserManagement\\Repositories\\CourseRepository.cs",
-              "ToolTip": "D:\\Learning\\Aplied programming\\SIMS\\UserManagement\\Repositories\\CourseRepository.cs",
-              "RelativeToolTip": "UserManagement\\Repositories\\CourseRepository.cs",
-              "ViewState": "AgIAAAgAAAAAAAAAAAAQwEcAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-23T14:59:34.932Z",
+              "DocumentIndex": 35,
+              "Title": "StudentPage.cshtml",
+              "DocumentMoniker": "D:\\Learning\\Aplied programming\\New folder\\SIMS\\UserManagement\\Views\\Home\\StudentPage.cshtml",
+              "RelativeDocumentMoniker": "UserManagement\\Views\\Home\\StudentPage.cshtml",
+              "ToolTip": "D:\\Learning\\Aplied programming\\New folder\\SIMS\\UserManagement\\Views\\Home\\StudentPage.cshtml",
+              "RelativeToolTip": "UserManagement\\Views\\Home\\StudentPage.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-28T13:51:03.117Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 28,
+              "DocumentIndex": 36,
+              "Title": "FacultyPage.cshtml",
+              "DocumentMoniker": "D:\\Learning\\Aplied programming\\New folder\\SIMS\\UserManagement\\Views\\Home\\FacultyPage.cshtml",
+              "RelativeDocumentMoniker": "UserManagement\\Views\\Home\\FacultyPage.cshtml",
+              "ToolTip": "D:\\Learning\\Aplied programming\\New folder\\SIMS\\UserManagement\\Views\\Home\\FacultyPage.cshtml",
+              "RelativeToolTip": "UserManagement\\Views\\Home\\FacultyPage.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-28T13:51:13.002Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "AdminPage.cshtml",
+              "DocumentMoniker": "D:\\Learning\\Aplied programming\\New folder\\SIMS\\UserManagement\\Views\\Home\\AdminPage.cshtml",
+              "RelativeDocumentMoniker": "UserManagement\\Views\\Home\\AdminPage.cshtml",
+              "ToolTip": "D:\\Learning\\Aplied programming\\New folder\\SIMS\\UserManagement\\Views\\Home\\AdminPage.cshtml",
+              "RelativeToolTip": "UserManagement\\Views\\Home\\AdminPage.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-24T17:08:34.875Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "_Layout3.cshtml",
+              "DocumentMoniker": "D:\\Learning\\Aplied programming\\New folder\\SIMS\\UserManagement\\Views\\Shared\\_Layout3.cshtml",
+              "RelativeDocumentMoniker": "UserManagement\\Views\\Shared\\_Layout3.cshtml",
+              "ToolTip": "D:\\Learning\\Aplied programming\\New folder\\SIMS\\UserManagement\\Views\\Shared\\_Layout3.cshtml",
+              "RelativeToolTip": "UserManagement\\Views\\Shared\\_Layout3.cshtml",
+              "ViewState": "AgIAABsAAAAAAAAAAAAAADYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-30T09:27:51.216Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "D:\\Learning\\Aplied programming\\New folder\\SIMS\\UserManagement\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "UserManagement\\Controllers\\HomeController.cs",
+              "ToolTip": "D:\\Learning\\Aplied programming\\New folder\\SIMS\\UserManagement\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "UserManagement\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAABsAAAAAAAAAAAAowCMAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-23T14:48:22.458Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "User.cs",
+              "DocumentMoniker": "D:\\Learning\\Aplied programming\\New folder\\SIMS\\UserManagement\\Models\\User.cs",
+              "RelativeDocumentMoniker": "UserManagement\\Models\\User.cs",
+              "ToolTip": "D:\\Learning\\Aplied programming\\New folder\\SIMS\\UserManagement\\Models\\User.cs",
+              "RelativeToolTip": "UserManagement\\Models\\User.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAQwBIAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-23T15:08:25.577Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "UserCourse.cs",
+              "DocumentMoniker": "D:\\Learning\\Aplied programming\\New folder\\SIMS\\UserManagement\\Models\\UserCourse.cs",
+              "RelativeDocumentMoniker": "UserManagement\\Models\\UserCourse.cs",
+              "ToolTip": "D:\\Learning\\Aplied programming\\New folder\\SIMS\\UserManagement\\Models\\UserCourse.cs",
+              "RelativeToolTip": "UserManagement\\Models\\UserCourse.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-03T16:06:57.768Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 42,
+              "Title": "ErrorViewModel.cs",
+              "DocumentMoniker": "D:\\Learning\\Aplied programming\\New folder\\SIMS\\UserManagement\\Models\\ErrorViewModel.cs",
+              "RelativeDocumentMoniker": "UserManagement\\Models\\ErrorViewModel.cs",
+              "ToolTip": "D:\\Learning\\Aplied programming\\New folder\\SIMS\\UserManagement\\Models\\ErrorViewModel.cs",
+              "RelativeToolTip": "UserManagement\\Models\\ErrorViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-23T15:08:23.009Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
+              "Title": "Course.cs",
+              "DocumentMoniker": "D:\\Learning\\Aplied programming\\New folder\\SIMS\\UserManagement\\Models\\Course.cs",
+              "RelativeDocumentMoniker": "UserManagement\\Models\\Course.cs",
+              "ToolTip": "D:\\Learning\\Aplied programming\\New folder\\SIMS\\UserManagement\\Models\\Course.cs",
+              "RelativeToolTip": "UserManagement\\Models\\Course.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-23T14:59:08.249Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 43,
               "Title": "appsettings.json",
-              "DocumentMoniker": "D:\\Learning\\Aplied programming\\SIMS\\UserManagement\\appsettings.json",
+              "DocumentMoniker": "D:\\Learning\\Aplied programming\\New folder\\SIMS\\UserManagement\\appsettings.json",
               "RelativeDocumentMoniker": "UserManagement\\appsettings.json",
-              "ToolTip": "D:\\Learning\\Aplied programming\\SIMS\\UserManagement\\appsettings.json",
+              "ToolTip": "D:\\Learning\\Aplied programming\\New folder\\SIMS\\UserManagement\\appsettings.json",
               "RelativeToolTip": "UserManagement\\appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAArAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAC0AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-03-23T14:51:44.407Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-03T15:48:16.689Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 29,
-              "Title": "UserRepository.cs",
-              "DocumentMoniker": "D:\\Learning\\Aplied programming\\SIMS\\UserManagement\\Repositories\\UserRepository.cs",
-              "RelativeDocumentMoniker": "UserManagement\\Repositories\\UserRepository.cs",
-              "ToolTip": "D:\\Learning\\Aplied programming\\SIMS\\UserManagement\\Repositories\\UserRepository.cs",
-              "RelativeToolTip": "UserManagement\\Repositories\\UserRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAG4AAAAHAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-24T14:54:00.964Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 30,
-              "Title": "IUserRepository.cs",
-              "DocumentMoniker": "D:\\Learning\\Aplied programming\\SIMS\\UserManagement\\Repositories\\IUserRepository.cs",
-              "RelativeDocumentMoniker": "UserManagement\\Repositories\\IUserRepository.cs",
-              "ToolTip": "D:\\Learning\\Aplied programming\\SIMS\\UserManagement\\Repositories\\IUserRepository.cs",
-              "RelativeToolTip": "UserManagement\\Repositories\\IUserRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAIAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-23T15:00:19.943Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 31,
+              "DocumentIndex": 44,
               "Title": "ICourseRepository.cs",
-              "DocumentMoniker": "D:\\Learning\\Aplied programming\\SIMS\\UserManagement\\Repositories\\ICourseRepository.cs",
+              "DocumentMoniker": "D:\\Learning\\Aplied programming\\New folder\\SIMS\\UserManagement\\Repositories\\ICourseRepository.cs",
               "RelativeDocumentMoniker": "UserManagement\\Repositories\\ICourseRepository.cs",
-              "ToolTip": "D:\\Learning\\Aplied programming\\SIMS\\UserManagement\\Repositories\\ICourseRepository.cs",
+              "ToolTip": "D:\\Learning\\Aplied programming\\New folder\\SIMS\\UserManagement\\Repositories\\ICourseRepository.cs",
               "RelativeToolTip": "UserManagement\\Repositories\\ICourseRepository.cs",
-              "ViewState": "AgIAAAcAAAAAAAAAAAA1wAcAAAADAAAAAAAAAA==",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAqwAcAAAADAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-23T14:59:22.941Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 32,
-              "Title": "StudentPage.cshtml",
-              "DocumentMoniker": "D:\\Learning\\Aplied programming\\SIMS\\UserManagement\\Views\\Home\\StudentPage.cshtml",
-              "RelativeDocumentMoniker": "UserManagement\\Views\\Home\\StudentPage.cshtml",
-              "ToolTip": "D:\\Learning\\Aplied programming\\SIMS\\UserManagement\\Views\\Home\\StudentPage.cshtml",
-              "RelativeToolTip": "UserManagement\\Views\\Home\\StudentPage.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAA1AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-03-28T13:51:03.117Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 33,
-              "Title": "20250330040342_Buikd.cs",
-              "DocumentMoniker": "D:\\Learning\\Aplied programming\\SIMS\\UserManagement\\Migrations\\20250330040342_Buikd.cs",
-              "RelativeDocumentMoniker": "UserManagement\\Migrations\\20250330040342_Buikd.cs",
-              "ToolTip": "D:\\Learning\\Aplied programming\\SIMS\\UserManagement\\Migrations\\20250330040342_Buikd.cs",
-              "RelativeToolTip": "UserManagement\\Migrations\\20250330040342_Buikd.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-30T04:03:42.195Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 34,
-              "Title": "Edit.cshtml",
-              "DocumentMoniker": "D:\\Learning\\Aplied programming\\SIMS\\UserManagement\\Views\\Course\\Edit.cshtml",
-              "RelativeDocumentMoniker": "UserManagement\\Views\\Course\\Edit.cshtml",
-              "ToolTip": "D:\\Learning\\Aplied programming\\SIMS\\UserManagement\\Views\\Course\\Edit.cshtml",
-              "RelativeToolTip": "UserManagement\\Views\\Course\\Edit.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAqAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-03-23T15:03:53.8Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 35,
-              "Title": "Program.cs",
-              "DocumentMoniker": "D:\\Learning\\Aplied programming\\SIMS\\UserManagement\\Program.cs",
-              "RelativeDocumentMoniker": "UserManagement\\Program.cs",
-              "ToolTip": "D:\\Learning\\Aplied programming\\SIMS\\UserManagement\\Program.cs",
-              "RelativeToolTip": "UserManagement\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-20T17:50:16.96Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 36,
-              "Title": "_Layout1.cshtml.css",
-              "DocumentMoniker": "D:\\Learning\\Aplied programming\\SIMS\\UserManagement\\Views\\Shared\\_Layout1.cshtml.css",
-              "RelativeDocumentMoniker": "UserManagement\\Views\\Shared\\_Layout1.cshtml.css",
-              "ToolTip": "D:\\Learning\\Aplied programming\\SIMS\\UserManagement\\Views\\Shared\\_Layout1.cshtml.css",
-              "RelativeToolTip": "UserManagement\\Views\\Shared\\_Layout1.cshtml.css",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2025-03-23T18:18:43.079Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 37,
-              "Title": "UserManagement.csproj",
-              "DocumentMoniker": "D:\\Learning\\Aplied programming\\SIMS\\UserManagement\\UserManagement.csproj",
-              "RelativeDocumentMoniker": "UserManagement\\UserManagement.csproj",
-              "ToolTip": "D:\\Learning\\Aplied programming\\SIMS\\UserManagement\\UserManagement.csproj",
-              "RelativeToolTip": "UserManagement\\UserManagement.csproj",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-03-25T08:53:27.63Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 40,
-              "Title": "20250323164049_Bubble.cs",
-              "DocumentMoniker": "D:\\Learning\\Aplied programming\\SIMS\\UserManagement\\Migrations\\20250323164049_Bubble.cs",
-              "RelativeDocumentMoniker": "UserManagement\\Migrations\\20250323164049_Bubble.cs",
-              "ToolTip": "D:\\Learning\\Aplied programming\\SIMS\\UserManagement\\Migrations\\20250323164049_Bubble.cs",
-              "RelativeToolTip": "UserManagement\\Migrations\\20250323164049_Bubble.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-23T16:40:49.483Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 38,
+              "DocumentIndex": 45,
               "Title": "appsettings.Development.json",
-              "DocumentMoniker": "D:\\Learning\\Aplied programming\\SIMS\\UserManagement\\appsettings.Development.json",
+              "DocumentMoniker": "D:\\Learning\\Aplied programming\\New folder\\SIMS\\UserManagement\\appsettings.Development.json",
               "RelativeDocumentMoniker": "UserManagement\\appsettings.Development.json",
-              "ToolTip": "D:\\Learning\\Aplied programming\\SIMS\\UserManagement\\appsettings.Development.json",
+              "ToolTip": "D:\\Learning\\Aplied programming\\New folder\\SIMS\\UserManagement\\appsettings.Development.json",
               "RelativeToolTip": "UserManagement\\appsettings.Development.json",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
@@ -695,11 +840,131 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 39,
+              "DocumentIndex": 46,
+              "Title": "AppDbContext.cs",
+              "DocumentMoniker": "D:\\Learning\\Aplied programming\\New folder\\SIMS\\UserManagement\\Data\\AppDbContext.cs",
+              "RelativeDocumentMoniker": "UserManagement\\Data\\AppDbContext.cs",
+              "ToolTip": "D:\\Learning\\Aplied programming\\New folder\\SIMS\\UserManagement\\Data\\AppDbContext.cs",
+              "RelativeToolTip": "UserManagement\\Data\\AppDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-23T14:49:47.562Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 48,
+              "Title": "Error.cshtml",
+              "DocumentMoniker": "D:\\Learning\\Aplied programming\\New folder\\SIMS\\UserManagement\\Views\\Shared\\Error.cshtml",
+              "RelativeDocumentMoniker": "UserManagement\\Views\\Shared\\Error.cshtml",
+              "ToolTip": "D:\\Learning\\Aplied programming\\New folder\\SIMS\\UserManagement\\Views\\Shared\\Error.cshtml",
+              "RelativeToolTip": "UserManagement\\Views\\Shared\\Error.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-23T14:48:37.197Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 47,
+              "Title": "_ValidationScriptsPartial.cshtml",
+              "DocumentMoniker": "D:\\Learning\\Aplied programming\\New folder\\SIMS\\UserManagement\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "RelativeDocumentMoniker": "UserManagement\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "ToolTip": "D:\\Learning\\Aplied programming\\New folder\\SIMS\\UserManagement\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "RelativeToolTip": "UserManagement\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-23T14:48:37.656Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 49,
+              "Title": "Role.cs",
+              "DocumentMoniker": "D:\\Learning\\Aplied programming\\New folder\\SIMS\\UserManagement\\Models\\Role.cs",
+              "RelativeDocumentMoniker": "UserManagement\\Models\\Role.cs",
+              "ToolTip": "D:\\Learning\\Aplied programming\\New folder\\SIMS\\UserManagement\\Models\\Role.cs",
+              "RelativeToolTip": "UserManagement\\Models\\Role.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-23T15:08:23.834Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 50,
+              "Title": "AuthMiddleware.cs",
+              "DocumentMoniker": "D:\\Learning\\Aplied programming\\New folder\\SIMS\\UserManagement\\Middleware\\AuthMiddleware.cs",
+              "RelativeDocumentMoniker": "UserManagement\\Middleware\\AuthMiddleware.cs",
+              "ToolTip": "D:\\Learning\\Aplied programming\\New folder\\SIMS\\UserManagement\\Middleware\\AuthMiddleware.cs",
+              "RelativeToolTip": "UserManagement\\Middleware\\AuthMiddleware.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABkAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-23T15:08:18.703Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 56,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\Learning\\Aplied programming\\SIMS\\UserManagement\\appsettings.json",
+              "RelativeDocumentMoniker": "..\\..\\SIMS\\UserManagement\\appsettings.json",
+              "ToolTip": "D:\\Learning\\Aplied programming\\SIMS\\UserManagement\\appsettings.json",
+              "RelativeToolTip": "..\\..\\SIMS\\UserManagement\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-03-23T14:51:44.407Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 51,
+              "Title": "20250330040342_Buikd.cs",
+              "DocumentMoniker": "D:\\Learning\\Aplied programming\\New folder\\SIMS\\UserManagement\\Migrations\\20250330040342_Buikd.cs",
+              "RelativeDocumentMoniker": "UserManagement\\Migrations\\20250330040342_Buikd.cs",
+              "ToolTip": "D:\\Learning\\Aplied programming\\New folder\\SIMS\\UserManagement\\Migrations\\20250330040342_Buikd.cs",
+              "RelativeToolTip": "UserManagement\\Migrations\\20250330040342_Buikd.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-30T04:03:42.195Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 52,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\Learning\\Aplied programming\\New folder\\SIMS\\UserManagement\\Program.cs",
+              "RelativeDocumentMoniker": "UserManagement\\Program.cs",
+              "ToolTip": "D:\\Learning\\Aplied programming\\New folder\\SIMS\\UserManagement\\Program.cs",
+              "RelativeToolTip": "UserManagement\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-20T17:50:16.96Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 53,
+              "Title": "UserManagement.csproj",
+              "DocumentMoniker": "D:\\Learning\\Aplied programming\\New folder\\SIMS\\UserManagement\\UserManagement.csproj",
+              "RelativeDocumentMoniker": "UserManagement\\UserManagement.csproj",
+              "ToolTip": "D:\\Learning\\Aplied programming\\New folder\\SIMS\\UserManagement\\UserManagement.csproj",
+              "RelativeToolTip": "UserManagement\\UserManagement.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-03-25T08:53:27.63Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 55,
+              "Title": "20250323164049_Bubble.cs",
+              "DocumentMoniker": "D:\\Learning\\Aplied programming\\New folder\\SIMS\\UserManagement\\Migrations\\20250323164049_Bubble.cs",
+              "RelativeDocumentMoniker": "UserManagement\\Migrations\\20250323164049_Bubble.cs",
+              "ToolTip": "D:\\Learning\\Aplied programming\\New folder\\SIMS\\UserManagement\\Migrations\\20250323164049_Bubble.cs",
+              "RelativeToolTip": "UserManagement\\Migrations\\20250323164049_Bubble.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-23T16:40:49.483Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 54,
               "Title": ".gitignore",
-              "DocumentMoniker": "D:\\Learning\\Aplied programming\\SIMS\\UserManagement\\.gitignore",
+              "DocumentMoniker": "D:\\Learning\\Aplied programming\\New folder\\SIMS\\UserManagement\\.gitignore",
               "RelativeDocumentMoniker": "UserManagement\\.gitignore",
-              "ToolTip": "D:\\Learning\\Aplied programming\\SIMS\\UserManagement\\.gitignore",
+              "ToolTip": "D:\\Learning\\Aplied programming\\New folder\\SIMS\\UserManagement\\.gitignore",
               "RelativeToolTip": "UserManagement\\.gitignore",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
