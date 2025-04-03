@@ -1,0 +1,24 @@
+﻿@{
+    ViewData["Title"] = "ViewAssignedCourse";
+    Layout = "_Layout2";
+}
+@model IEnumerable<UserCourseViewModel>
+<link href="~/css/UserCourseList.css" rel="stylesheet"/>
+<h2>AssignedCourses</h2>
+<table class="table">
+    <thead>
+        <tr>
+            <th>Full Name</th>
+            <th>Course Name</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>@item.Fullname</td>
+                <td>@item.CourseName</td>
+            </tr>
+        }
+    </tbody>
+</table>

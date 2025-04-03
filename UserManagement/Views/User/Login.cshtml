@@ -4,9 +4,8 @@
 }
 @{
 }
-
+<link href="~/css/Login.css" rel="stylesheet" />
 <div class="container">
-    <!-- Login Form -->
     <form asp-controller="User" asp-action="Login" method="post" class="shadow p-4 rounded border">
         <h1 class="text-center mb-4">Login</h1>
 
@@ -32,9 +31,7 @@
             <button type="submit" class="btn btn-primary w-100 py-2">Login</button>
         </div>
 
-      
     </form>
-
     @if (ViewBag.IsLogin != null && (bool)ViewBag.IsLogin)
     {
         <div id="successMessage" class="alert alert-success" style="color: green; display: none;">
@@ -46,7 +43,7 @@
             }, 500);
 
             setTimeout(function() {
-                var roleId = @ViewBag.RoleId; // RoleId được trả về từ controller
+                var roleId = @ViewBag.RoleId; 
                 var targetPage = '';
 
                 switch(roleId) {
@@ -64,58 +61,9 @@
                 }
 
                 window.location.href = targetPage;
-            }, 1000);
+            }, 500);
         </script>
     }
 </div>
 
-<style>
-    .container {
-		max-width: 500px;
-		margin-top: 80px;
-	}
 
-    form
-    .form-group label {
-        font-weight: bold;
-    }
-
-    .btn-link {
-        color: #007bff;
-        text-decoration: none;
-    }
-
-        .btn-link:hover {
-            text-decoration: underline;
-        }
-
-    .alert-success {
-        font-size: 1.1rem;
-        font-weight: bold;
-        margin-bottom: 20px;
-    }
-
-    .form-control {
-        border-radius: 10px;
-    }
-
-    .btn-primary {
-        border-radius: 5px;
-    }
-
-    .btn-secondary {
-        border-radius: 5px;
-    }
-
-    .shadow {
-        box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
-    }
-
-    .rounded {
-        border-radius: 10px;
-    }
-
-    .border {
-        border: 1px solid #ddd;
-    }
-</style>
